@@ -16,6 +16,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = ['https://salesandinventorysystem-pa0zqya5.b4a.run']
+
 
 # Application definition
 
