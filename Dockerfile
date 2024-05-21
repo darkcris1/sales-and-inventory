@@ -25,4 +25,4 @@ RUN python manage.py migrate
 RUN python manage.py loaddata fixtures/*.json
 
 # Command to run the app with Gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "sales_and_inventory_management.wsgi:application"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "InventoryMS.wsgi:application"]
