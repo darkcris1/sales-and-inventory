@@ -1,8 +1,7 @@
 $(document).ready(function () {
-    $('#dtVerticalScrollExample').DataTable({
-      "scrollY": "200px",
-      "scrollCollapse": true,
-    });
+
+  new DataTable('#dtVerticalScrollExample');
+
     $('.dataTables_length').addClass('bs-select');
   });
 

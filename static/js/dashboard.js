@@ -20,11 +20,18 @@ function siblings(el) {
 }
 
 const showAsideBtn = $('.show-side-btn')
+const closeAsideBtn = $('.close-aside')
 const sidebar = $('.sidebar')
 const wrapper = $('#wrapper')
 
 showAsideBtn.addEventListener('click', function () {
   $(`#${this.dataset.show}`).classList.toggle('show-sidebar')
+  wrapper.classList.toggle('fullwidth')
+})
+
+
+closeAsideBtn.addEventListener('click', function () {
+  $(`#${this.dataset.close}`).classList.toggle('show-sidebar')
   wrapper.classList.toggle('fullwidth')
 })
 
