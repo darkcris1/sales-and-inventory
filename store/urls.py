@@ -9,11 +9,6 @@ from .views import (
     ProductUpdateView,
     ProductDeleteView,
     ItemSearchListView,
-    DeliveryListView,
-    DeliveryDetailView,
-    DeliveryCreateView,
-    DeliveryUpdateView,
-    DeliveryDeleteView,
 )
 
 urlpatterns = [
@@ -24,12 +19,6 @@ urlpatterns = [
     path('product/<slug:slug>/update/', ProductUpdateView.as_view(), name='product-update'),
     path('product/<slug:slug>/delete/', ProductDeleteView.as_view(), name='product-delete'),
     path('search/',ItemSearchListView.as_view(), name="item_search_list_view"),
-
-    path('deliveries/',DeliveryListView.as_view(), name="deliveries"),
-    path('delivery/<slug:slug>/', DeliveryDetailView.as_view(), name='delivery-detail'),
-    path('new-delivery/', DeliveryCreateView.as_view(), name='delivery-create'),
-    path('delivery/<int:pk>/update/', DeliveryUpdateView.as_view(), name='delivery-update'),
-    path('delivery/<int:pk>/delete/', DeliveryDeleteView.as_view(), name='delivery-delete'),
 
 ]
 urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

@@ -40,8 +40,6 @@ INSTALLED_APPS = [
     'store.apps.StoreConfig',
     'accounts.apps.AccountsConfig',
     'transactions.apps.TransactionsConfig',
-    'invoice.apps.InvoiceConfig',
-    'bills.apps.BillsConfig',
 ]
 
 MIDDLEWARE = [
@@ -111,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Manila'
 
 USE_I18N = True
 
@@ -137,3 +135,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
+
+
+
+EXTENSIONS_MAX_UNIQUE_QUERY_ATTEMPTS = 100000

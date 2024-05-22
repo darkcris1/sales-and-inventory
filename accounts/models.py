@@ -47,12 +47,3 @@ class Profile(models.Model):
 
     class Meta:
         ordering = ["slug"]
-
-class Vendor(models.Model):
-    name = models.CharField(max_length=50)
-    slug = AutoSlugField(unique=True , populate_from='name')
-    phone_number = models.IntegerField(blank=True, null=True)
-    address = models.CharField(max_length=50, blank=True, null=True)
-
-    def __str__(self):
-        return self.name

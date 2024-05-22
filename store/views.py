@@ -26,9 +26,9 @@ from django_tables2.export.export import TableExport
 from django.db.models import Q, Count, Sum, Avg
 from django.views.generic.edit import FormMixin
 
-from accounts.models import Profile, Vendor
+from accounts.models import Profile
 from transactions.models import Sale
-from .models import Category, Item, Delivery
+from .models import Category, Item
 from .forms import ProductForm
 from .tables import ItemTable
 
@@ -76,8 +76,6 @@ def dashboard(request):
         'profiles_count': profiles_count,
         'items_count': items_count,
         'total_items': total_items,
-        'vendors' : Vendor.objects.all(),
-        'delivery': Delivery.objects.all(),
         'sales': Sale.objects.all()
     }
     return render(request, 'store/dashboard.html', context)
@@ -168,7 +166,7 @@ class ProductUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     """
     model = Item
     template_name = 'store/productupdate.html'
-    fields = ['name','category','quantity','selling_price', 'expiring_date', 'vendor']
+    fields = ['name','category','quantity','selling_price', 'expiring_date',]
     success_url = '/products'
 
     def test_func(self):
@@ -191,101 +189,6 @@ class ProductDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     template_name = 'store/productdelete.html'
     success_url = '/products'
 
-
-    def test_func(self):
-        if self.request.user.is_superuser:
-            return True
-        else:
-            return False
-
-class DeliveryListView(LoginRequiredMixin, ExportMixin, tables.SingleTableView):
-    """
-    View class to display a list of deliveries.
-
-    Attributes:
-    - model: The model associated with the view.
-    - pagination: Number of items per page for pagination.
-    - template_name: The HTML template used for rendering the view.
-    - context_object_name: The variable name for the context object.
-    """
-    model = Delivery
-    pagination = 10
-    template_name = 'store/deliveries.html'
-    context_object_name = 'deliveries'
-
-class DeliverySearchListView(DeliveryListView):
-    """
-    View class to search and display a filtered list of deliveries.
-
-    Attributes:
-    - paginate_by: Number of items per page for pagination.
-    """
-    paginate_by = 10
-
-    def get_queryset(self):
-        result = super(DeliverySearchListView, self).get_queryset()
-
-        query = self.request.GET.get('q')
-        if query:
-            query_list = query.split()
-            result = result.filter(
-                reduce(operator.and_,
-                       (Q(customer_name__icontains=q) for q in query_list))
-            )
-        return result
-
-class DeliveryDetailView(LoginRequiredMixin, DetailView):
-    """
-    View class to display detailed information about a delivery.
-
-    Attributes:
-    - model: The model associated with the view.
-    - template_name: The HTML template used for rendering the view.
-    """
-    model = Delivery
-    template_name = 'store/deliverydetail.html'
-class DeliveryCreateView(LoginRequiredMixin, CreateView):
-    """
-    View class to create a new delivery.
-
-    Attributes:
-    - model: The model associated with the view.
-    - fields: The fields to be included in the form.
-    - template_name: The HTML template used for rendering the view.
-    - success_url: The URL to redirect to upon successful form submission.
-    """
-    model = Delivery
-    fields = ['item', 'customer_name', 'phone_number', 'location', 'date','is_delivered']
-    template_name = 'store/deliveriescreate.html'
-    success_url = '/deliveries'
-
-class DeliveryUpdateView(LoginRequiredMixin, UpdateView):
-    """
-    View class to update delivery information.
-
-    Attributes:
-    - model: The model associated with the view.
-    - fields: The fields to be updated.
-    - template_name: The HTML template used for rendering the view.
-    - success_url: The URL to redirect to upon successful form submission.
-    """
-    model = Delivery
-    fields = ['item', 'customer_name', 'phone_number', 'location', 'date','is_delivered']
-    template_name = 'store/deliveryupdate.html'
-    success_url = '/deliveries'
-
-class DeliveryDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
-    """
-    View class to delete a delivery.
-
-    Attributes:
-    - model: The model associated with the view.
-    - template_name: The HTML template used for rendering the view.
-    - success_url: The URL to redirect to upon successful deletion.
-    """
-    model = Delivery
-    template_name = 'store/productdelete.html'
-    success_url = '/deliveries'
 
     def test_func(self):
         if self.request.user.is_superuser:

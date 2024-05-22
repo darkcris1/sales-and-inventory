@@ -14,7 +14,6 @@ from django.db import models
 from django.urls import reverse
 from django_extensions.db.fields import AutoSlugField
 from phonenumber_field.modelfields import PhoneNumberField
-from accounts.models import Vendor
 
 class Category(models.Model):
     """
@@ -39,16 +38,13 @@ class Item(models.Model):
     slug = AutoSlugField(unique=True , populate_from='name')
     name = models.CharField(max_length=50, blank=False, null=False)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
-    quantity = models.FloatField(default=0.00)
     selling_price = models.FloatField(default=0)
-    expiring_date = models.DateTimeField(null=True, blank=True)
-    vendor = models.ForeignKey(Vendor, on_delete=models.SET_NULL, null=True)
 
     def __str__(self):
         """
         String representation of the item.
         """
-        return f"{self.name} - Category: {self.category}, Quantity: {self.quantity}"
+        return f"{self.name} - Category: {self.category}"
 
     def get_absolute_url(self):
         """
@@ -59,23 +55,3 @@ class Item(models.Model):
     class Meta:
         ordering = ["name"]
         verbose_name_plural = "Items"
-
-class Delivery(models.Model):
-    """
-    Represents a delivery of an item to a customer.
-    """
-    item = models.ForeignKey(Item, blank=True, null=True, on_delete=models.SET_NULL)
-    customer_name = models.CharField(blank=True, null=True, max_length=30)
-    phone_number = PhoneNumberField(null=True, blank=True)
-    location = models.CharField(blank=True, null=True, max_length=20)
-    date = models.DateTimeField(null=False, blank=False)
-    is_delivered = models.BooleanField(default=False, verbose_name='is-delivered')
-
-    def __str__(self):
-        """
-        String representation of the delivery.
-        """
-        return (
-            f"Delivery of {self.item} to {self.customer_name} "
-            f"at {self.location} on {self.date}"
-        )

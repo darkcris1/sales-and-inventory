@@ -44,10 +44,7 @@
                 <th scope="col"><a href="{% querystring table.prefixed_order_by_field=column.order_by_alias.next %}">ID <i class="fa-solid fa-sort"></i></a></th>
                 <th scope="col">Name <i class="fa-solid fa-sort"></i></th>
                 <th scope="col">Category <i class="fa-solid fa-sort"></i></th>
-                <th scope="col">Quantity <i class="fa-solid fa-sort"></i></i></th>
                 <th scope="col">Price <i class="fa-solid fa-sort"></i></th>
-                <th scope="col">Expiring date <i class="fa-solid fa-sort"></i></th>
-                <th scope="col">Vendor <i class="fa-solid fa-sort"></i></th>
                 <th scope="col"> Action</th>
               </tr>
             </thead>
@@ -57,10 +54,7 @@
                 <th scope="row"><a> {{item.id}}</a></th>
                 <td>{{item.name}}</td>
                 <td>{{item.category}}</td>
-                <td>{{item.quantity}}</td>
                 <td>{{item.selling_price}}</td>
-                <th scope="col">{{item.expiring_date}}</th>
-                <td>{{item.vendor}}</td>
                 <td>
                   <a class="text-info" href="{% url 'product-update' item.slug %}"><i class="fa-solid fa-pen"></i></a>
                   <a class="text-danger float-end" href="{% url 'product-delete' item.slug %}"><i class="fa-solid fa-trash"></i></a>
@@ -70,25 +64,28 @@
             </tbody>
           </table>
         </div>
-          <div class="paginator">
-            {% if is_paginated %}
-            <ul class="pagination ">
-                {% if page_obj.has_previous %}
-                <li><a class="btn btn-sm accent-1 btn-outline-success " href="?page={{ page_obj.previous_page_number }} ">&laquo;</a></li>
-                {% else %}
-                <li class="disabled "><span class="btn btn-sm btn-outline-success ">&laquo;</span></li>
-                {% endif %} {% for i in paginator.page_range %} {% if page_obj.number == i %}
-                <li class="active "><span class="btn btn-sm btn-success ">{{ i }} <span class="sr-only ">(current)</span></span>
-                </li>
-                {% else %}
-                <li><a href="?page={{ i }} " class="btn btn-sm btn-outline-success ">{{ i }}</a></li>
-                {% endif %} {% endfor %} {% if page_obj.has_next %}
-                <li><a href="?page={{ page_obj.next_page_number }} " class="btn btn-sm btn-outline-success ">&raquo;</a></li>
-                {% else %}
-                <li class="disabled "><span class="btn btn-sm btn-outline-success ">&raquo;</span></li>
+        <div class="paginator">
+          {% if is_paginated %}
+            <ul class="pagination">
+              {% if page_obj.has_previous %}
+                <li><a href="?page=1" class="btn btn-sm btn-outline-success">&laquo; First</a></li>
+                <li><a href="?page={{ page_obj.previous_page_number }}" class="btn btn-sm btn-outline-success">&lsaquo; Previous</a></li>
+              {% endif %}
+        
+              {% for num in page_obj.paginator.page_range %}
+                {% if page_obj.number == num %}
+                  <li class="active"><span class="btn btn-sm btn-success">{{ num }} <span class="sr-only">(current)</span></span></li>
+                {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+                  <li><a href="?page={{ num }}" class="btn btn-sm btn-outline-success">{{ num }}</a></li>
                 {% endif %}
+              {% endfor %}
+        
+              {% if page_obj.has_next %}
+                <li><a href="?page={{ page_obj.next_page_number }}" class="btn btn-sm btn-outline-success">Next &rsaquo;</a></li>
+                <li><a href="?page={{ page_obj.paginator.num_pages }}" class="btn btn-sm btn-outline-success">Last &raquo;</a></li>
+              {% endif %}
             </ul>
-            {% endif %}
+          {% endif %}
         </div>
     </div>
   {% endblock content %}
