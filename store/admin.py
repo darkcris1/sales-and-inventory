@@ -8,4 +8,4 @@ class ItemAdmin(admin.ModelAdmin):
     search_fields = ['id', 'name']
 
 admin.site.register(Category)
-admin.site.register(Delivery)
+# admin.site.register(Delivery)
