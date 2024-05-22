@@ -20,7 +20,6 @@ ROLE_CHOICES = [
     ('AD', 'Admin')
 ]
 
-
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     slug = AutoSlugField(unique=True, verbose_name=('Account ID'), populate_from='email')
