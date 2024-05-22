@@ -64,9 +64,6 @@ class SaleCreateView(LoginRequiredMixin, CreateView):
         item = form.cleaned_data['item']
         quantity = form.cleaned_data['quantity']
 
-        if item.quantity < quantity:
-            raise ValidationError(f"Only {item.quantity} units of '{item.name}' are available.")
-
         price = item.selling_price
 
         total_price = price * quantity

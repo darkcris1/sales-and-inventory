@@ -46,7 +46,7 @@ def dashboard(request):
     profiles =  Profile.objects.all()
     Category.objects.annotate(nitem=Count('item'))
     items = Item.objects.all()
-    total_items = Item.objects.all().aggregate(Sum('quantity')).get('quantity__sum', 0.00)
+    total_items = Item.objects.all().aggregate(Count('id')).get('id__count', 0.00)
     items_count = items.count()
     profiles_count = profiles.count()
 
@@ -148,11 +148,7 @@ class ProductCreateView(LoginRequiredMixin, CreateView):
     success_url = '/products'
 
     def test_func(self):
-        #item = Item.objects.get(id=pk)
-        if self.request.POST.get("quantity") < 1:
-            return False
-        else:
-            return True
+        return True
 
 class ProductUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     """

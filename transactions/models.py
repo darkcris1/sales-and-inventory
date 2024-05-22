@@ -36,3 +36,10 @@ class Sale(models.Model):
 
     def __str__(self):
         return str(self.item.name)
+
+
+def generateItem():
+    asd = Sale.objects.first()
+    for i in range(0, 1000):
+        asd.pk = None
+        asd.save()
