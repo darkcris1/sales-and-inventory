@@ -1,10 +1,7 @@
 from django.contrib import admin
-from .models import Category, Item
+from .models import  Item
 
 @admin.register(Item)
 class ItemAdmin(admin.ModelAdmin):
-    fields = ('name', 'category','selling_price', )
-    list_display = ('id', 'name','category', 'selling_price', )
+    list_display = ('id', 'name', 'barcode', 'barcode' )
     search_fields = ['id', 'name']
-
-admin.site.register(Category)

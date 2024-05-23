@@ -28,7 +28,7 @@ from django.views.generic.edit import FormMixin
 
 from accounts.models import Profile
 from transactions.models import Sale
-from .models import Category, Item
+from .models import Item
 from .forms import ProductForm
 from .tables import ItemTable
 
@@ -44,7 +44,6 @@ def dashboard(request):
     - Rendered template with dashboard data.
     """
     profiles =  Profile.objects.all()
-    Category.objects.annotate(nitem=Count('item'))
     items = Item.objects.all()
     total_items = Item.objects.all().aggregate(Count('id')).get('id__count', 0.00)
     items_count = items.count()
@@ -76,7 +75,7 @@ def dashboard(request):
         'profiles_count': profiles_count,
         'items_count': items_count,
         'total_items': total_items,
-        'sales': Sale.objects.all()
+        'sales': Sale.objects.aggregate(Sum('sales')).get('sales__sum', 0) or 0
     }
     return render(request, 'store/dashboard.html', context)
 class ProductListView(LoginRequiredMixin, ExportMixin, tables.SingleTableView):
@@ -94,7 +93,7 @@ class ProductListView(LoginRequiredMixin, ExportMixin, tables.SingleTableView):
     table_class = ItemTable
     template_name = 'store/productslist.html'
     context_object_name = 'items'
-    paginate_by = 10
+    paginate_by = 20
     SingleTableView.table_pagination = False
 
 class ItemSearchListView(ProductListView):

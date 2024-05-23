@@ -2,44 +2,53 @@ from django.db import models
 from store.models import Item
 from accounts.models import Profile
 from django_extensions.db.fields import AutoSlugField
-
+from functools import cached_property 
+from datetime import date
+from django.db.models import Manager, Sum
+from django.db.models import Max
 # Create your models here.
 
-PAYMENT_CHOICES = [
-    ('MP', 'MPESA'),
-    ('VISA', 'VISA'),
-    ('CS', 'CASH'),
-    ('VM', 'VOOMA'),
-    ('BK', 'BANK')
-]
+class SaleManager(Manager):
+  def get_queryset(self):
+    return super().get_queryset().annotate(
+        ending_inventory=Sum('initial_stock') + Sum('delivery') - Sum('withdrawal') - Sum('sales') - Sum('damage')
+    )
 
 class Sale(models.Model):
-    slug = AutoSlugField(unique=True , populate_from='item__name')
-    item = models.ForeignKey(Item, on_delete=models.CASCADE, blank=True, null=True)
-    transaction_date = models.DateTimeField(auto_now=True, blank=True, null=True)
-    quantity = models.FloatField(default=0.00, blank=False, null=False)
-    payment_method = models.CharField(choices=PAYMENT_CHOICES, max_length=20, blank='True', null=True)
-    price = models.FloatField(default=0.00, blank=False, null=False)
-    total_value = models.FloatField(blank=True, null=True)
-    amount_received = models.FloatField(default=False, blank=False, null=False)
-    balance = models.FloatField(default=False, blank=False, null=False)
+    item = models.ForeignKey(Item, on_delete=models.CASCADE, null=True, related_name='reports')
+    transaction_date = models.DateField(default=date.today ,blank=True)
+    initial_stock = models.IntegerField(default=0.00, blank=True)
+    damage = models.IntegerField(default=0.00, blank=True)
+    withdrawal = models.IntegerField(default=0.00, blank=True)
+    delivery = models.IntegerField(default=0.00, blank=True)
+    sales = models.IntegerField(default=0.00, blank=True)
+    remarks = models.CharField(max_length=255, blank=True, null=True)
     profile = models.ForeignKey(Profile, verbose_name=('Served by'), on_delete=models.CASCADE)
 
-    def save(self, *args, **kwargs):
-        amt_received = self.amount_received
-        price = self.price
-        quantity = self.quantity
-        self.total_value = price * quantity
-        self.balance = amt_received - self.total_value
-        super().save(*args, **kwargs)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
+    objects = SaleManager()
 
-    def __str__(self):
-        return str(self.item.name)
+    
+    class Meta:
+        verbose_name_plural = 'Iventory Reports'
 
+    @cached_property
+    def ending_inventory(self):
+        return self.ending_inventory
 
-def generateItem():
-    asd = Sale.objects.first()
-    for i in range(0, 1000):
-        asd.pk = None
-        asd.save()
+    @cached_property
+    def begin_inventory(self):
+        """Calculate the beginning inventory based on previous transaction date ending inventory"""
+        previous_sales = Sale.objects.filter(
+            item=self.item,
+            transaction_date__lt=self.transaction_date
+        )
+        previous_ending_inventory = previous_sales.aggregate(Max('transaction_date'))['transaction_date__max']
+        if previous_ending_inventory:
+            previous_sale = previous_sales.get(transaction_date=previous_ending_inventory)
+            return previous_sale.ending_inventory
+        else:
+            # If there are no previous sales, return initial stock
+            return self.initial_stock

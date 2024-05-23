@@ -7,5 +7,5 @@ class SaleTable(tables.Table):
     class Meta:
         model = Sale
         template_name = "django_tables2/semantic.html"
-        fields = ('item', 'transaction_date', 'payment_method', 'quantity', 'price', 'total_value', 'amount_received', 'balance', 'profile')
+        fields = ('item', 'transaction_date', 'initial_stock' ,'damage', 'withdrawal', 'delivery', 'sales','', 'remarks',  'profile')
         order_by_field = 'sort'

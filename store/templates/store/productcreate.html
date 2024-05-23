@@ -14,18 +14,9 @@
                             <h1 class="text-success">Add product</h1>
                             <hr>
                         </header>
-                        <label>Product name</label>
-                        <span class="text-danger">{{form.name.errors }}</span>
-                        {{form.name}}
-                        <label> Category </label>
-                        <span class="text-danger">{{form.category.errors }}</span>
-                        {{form.category}}
-                        <label> Quantity </label>
-                        <span class="text-danger">{{form.quantity.errors }}</span>
-                        {{form.quantity}}
-                        <label> Selling Price</label>
-                        <span class="text-danger">{{form.selling_price.errors }}</span>
-                        {{form.selling_price}}
+                        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+                        {{ form.media }}
+                        {{form | crispy }}
                     </fieldset>
                 </section>
                 <div class="form-group mt-4 text-center">

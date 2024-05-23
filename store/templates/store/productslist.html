@@ -16,7 +16,7 @@
       </style>
       <div class="row">
         <div class="col-md-4">
-          <a class="btn btn-sm btn-success" href="{% url 'product-create' %}">Add Item</a>
+          <a class="btn btn-sm btn-success" href="{% url 'product-create' %}">Add Product</a>
         </div>
         <div class="col-md-4">
           <form class="input-group" role="search " id="searchform" action="{% url 'item_search_list_view' %}" method="get" accept-charset="utf-8">
@@ -41,20 +41,18 @@
         <table class= "table table-sm table-responsive">
             <thead>
               <tr class="table-success">
-                <th scope="col"><a href="{% querystring table.prefixed_order_by_field=column.order_by_alias.next %}">ID <i class="fa-solid fa-sort"></i></a></th>
+                <th scope="col">Barcode <i class="fa-solid fa-sort"></i></th>
                 <th scope="col">Name <i class="fa-solid fa-sort"></i></th>
-                <th scope="col">Category <i class="fa-solid fa-sort"></i></th>
-                <th scope="col">Price <i class="fa-solid fa-sort"></i></th>
+                <th scope="col">Inventory</i></th>
                 <th scope="col"> Action</th>
               </tr>
             </thead>
             <tbody>
             {% for item in items %}
               <tr>
-                <th scope="row"><a> {{item.id}}</a></th>
+                <th scope="row"><a> {{item.barcode}}</a></th>
                 <td>{{item.name}}</td>
-                <td>{{item.category}}</td>
-                <td>₱ {{item.selling_price}}</td>
+                <td>{{item.inventory_count}}</td>
                 <td>
                   <a class="text-info" href="{% url 'product-update' item.slug %}"><i class="fa-solid fa-pen"></i></a>
                   <a class="text-danger float-end" href="{% url 'product-delete' item.slug %}"><i class="fa-solid fa-trash"></i></a>

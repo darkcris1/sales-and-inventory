@@ -1,0 +1,3117 @@
+[
+    {
+        "barcode": "11122",
+        "name": "All Purpose Flour 1kg",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "65556",
+        "name": "All Purpose Flour 1/2kg",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800361410816",
+        "name": "Bear Brand Powdered Milk Swak Pack 33g/128 (8x16)",
+        "expiry_date": "29-Feb-24"
+    },
+    {
+        "barcode": "4800361390804",
+        "name": "Nestle Coffee Mate 170g/60",
+        "expiry_date": "31-Jan-25"
+    },
+    {
+        "barcode": "4800361000826",
+        "name": "Nestle Coffee Mate Pack 5g/20 (48pcs per bag)",
+        "expiry_date": "30-Jun-24"
+    },
+    {
+        "barcode": "48025515",
+        "name": "Nestle Coffee Mate Pack 5g/20 (per piece)",
+        "expiry_date": "30-Jun-24"
+    },
+    {
+        "barcode": "4800361419642",
+        "name": "Maggi Magic Sarap 16x8g/60 (per tie)",
+        "expiry_date": "30-Apr-24"
+    },
+    {
+        "barcode": "48025522",
+        "name": "Maggi Magic Sarap 16x8g/60 (per piece)",
+        "expiry_date": "30-Apr-24"
+    },
+    {
+        "barcode": "4800361388252",
+        "name": "Nescafe Classic Sticks 1.9g/22 (48pcs per bag)",
+        "expiry_date": "31-Jul-24"
+    },
+    {
+        "barcode": "4800361339568",
+        "name": "Nescafe Classic Sticks 1.9g/22 (per piece)",
+        "expiry_date": "31-Jul-24"
+    },
+    {
+        "barcode": "4800361339186",
+        "name": "Nescafe Classic 23g/60",
+        "expiry_date": "31-Jul-24"
+    },
+    {
+        "barcode": "4800361393683",
+        "name": "Nescafe Classic 92g/30",
+        "expiry_date": "31-Oct-24"
+    },
+    {
+        "barcode": "4800361415347",
+        "name": "Nescafe Original Twin 2x24g/200",
+        "expiry_date": "31-Mar-24"
+    },
+    {
+        "barcode": "4800361061322",
+        "name": "Nestle All Purpose 250ml/24",
+        "expiry_date": "30-Sep-24"
+    },
+    {
+        "barcode": "4800888217516",
+        "name": "Dove Conditioner Amino Restore 150ml/24",
+        "expiry_date": "07-Oct-25"
+    },
+    {
+        "barcode": "4800888154354",
+        "name": "Dove Shampoo Straight & Silky 170ml/24",
+        "expiry_date": "08-Feb-25"
+    },
+    {
+        "barcode": "4800888217523",
+        "name": "Dove Conditioner Amino Restore 10ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888217448",
+        "name": "Dove Shampoo Straight & Silky 12ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "8717644190494",
+        "name": "Dove Bar Regular 90g/48",
+        "expiry_date": "20-Oct-25"
+    },
+    {
+        "barcode": "67238891183",
+        "name": "Dove Bar Pink 90g/48",
+        "expiry_date": "08-Feb-25"
+    },
+    {
+        "barcode": "8710908657092",
+        "name": "Dove Baby Bar Rich Moisture Mild & Nourishing 90g/48",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800888139481",
+        "name": "Cream Silk Conditioner Ultimate Reborn Straight 180ml/24",
+        "expiry_date": "08-Feb-25"
+    },
+    {
+        "barcode": "4800888206183",
+        "name": "Cream Silk Ultra Conditioner Triple Keratin Straight 170ml/24",
+        "expiry_date": "07-Aug-25"
+    },
+    {
+        "barcode": "4800888140869",
+        "name": "Sunsilk Shampoo Smooth & Manageable 180ml/24",
+        "expiry_date": "29-Jun-25"
+    },
+    {
+        "barcode": "4800888141194",
+        "name": "Clear Shampoo Complete Soft Care 13ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888197368",
+        "name": "Clear Shampoo Cool Spirit Menthol Men 12ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "",
+        "name": "Clear Shampoo Cool Spirit Menthol (11+1) 12ml/24",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888139276",
+        "name": "Cream Silk Ultimate Reborn Damage Control 11ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888139283",
+        "name": "Cream Silk Ultimate Reborn Hair Fall Defense 11ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888180100",
+        "name": "Cream Silk Ultimate Reborn Dry Rescue 11ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888139306",
+        "name": "Cream Silk Ultimate Reborn Standout Straight 11ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888216977",
+        "name": "Cream Silk Tri-Keratin Ultimate Straight 10ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888220950",
+        "name": "Cream Silk Tri-Keratin Ultimate Hair Fall Defiance 10ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888206084",
+        "name": "Cream Silk Tri-Keratin Ultimate Repair & Shine 10ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888209566",
+        "name": "Cream Silk Tri-Keratin Ultimate Color Revive 10ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888240064",
+        "name": "Cream Silk Treatment Damage Repair 18ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888240040",
+        "name": "Cream Silk Treatment Rebond Straight 18ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888194268",
+        "name": "Sunsilk Shampoo Strong & Long 15ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888169693",
+        "name": "Sunsilk Shampoo Damage Reconstruction 15ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888207234",
+        "name": "Sunsilk Shampoo Smooth & Manageable 15ml/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888221087",
+        "name": "Dove deo-lotion Ultimate Repair 3ml/360",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888158888",
+        "name": "Rexona deo-lotion Powder Dry Brightening 3ml/360",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888151100",
+        "name": "Rexona deo-lotion Passion 3ml/360",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888150608",
+        "name": "Rexona deo-lotion Shower Clean 3ml/360",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888160027",
+        "name": "Rexona deo-lotion Men Ice Cool 3ml/360",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888151117",
+        "name": "Rexona deo-lotion Men Quantum Dry 3ml/360",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888147288",
+        "name": "Close-up Red Hot Twin Pack 10g/144",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888147240",
+        "name": "Close-up Green All Day Twin Pack 10g/144",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888600998",
+        "name": "Knorr Beef Cubes 60g/72",
+        "expiry_date": "11-Apr-24"
+    },
+    {
+        "barcode": "4800888601025",
+        "name": "Knorr Chicken Cubes 60g/72",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800888601070",
+        "name": "Knorr Pork Cubes 60g/72",
+        "expiry_date": "13-Jul-24"
+    },
+    {
+        "barcode": "4800888602732",
+        "name": "Knorr Beef Cubes Single 10g/576",
+        "expiry_date": "16-Jun-24"
+    },
+    {
+        "barcode": "4800888602718",
+        "name": "Knorr Chicken Cubes Singles 10g/576",
+        "expiry_date": "10-May-24"
+    },
+    {
+        "barcode": "4800888602725",
+        "name": "Knorr Pork Cubes Singles 10g/576",
+        "expiry_date": "01-Jul-24"
+    },
+    {
+        "barcode": "4800888607959",
+        "name": "Knorr Shrimp Cubes Singles 10g/576",
+        "expiry_date": "13-Apr-24"
+    },
+    {
+        "barcode": "4808680230764",
+        "name": "Knorr Liquid Seasoning 130 mL/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4808680652146",
+        "name": "Knorr Sinigang sa Sampalok with Gabi 22g/25",
+        "expiry_date": "09-May-24"
+    },
+    {
+        "barcode": "4808680021355",
+        "name": "Lady's Choice Regular Mayonaise 80ml/72",
+        "expiry_date": "24-Jan-24"
+    },
+    {
+        "barcode": "4800888607119",
+        "name": "Lady's Choice Chicken Spread 27ml/72",
+        "expiry_date": "16-Feb-24"
+    },
+    {
+        "barcode": "4800888607096",
+        "name": "Lady's Choice Bacon Spread 27ml/72",
+        "expiry_date": "12-Feb-24"
+    },
+    {
+        "barcode": "4800888260987",
+        "name": "Lady's Choice Ham Spread 27ml/72",
+        "expiry_date": "05-Jan-24"
+    },
+    {
+        "barcode": "4808680652771",
+        "name": "Bestfoods Sandwich Spread 80ml/72 Pouch",
+        "expiry_date": "27-Feb-24"
+    },
+    {
+        "barcode": "4800888219343",
+        "name": "Surf Bar Antibac 120g/96",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888190970",
+        "name": "Surf Bar Red Cherry Blossom 120g/96",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888136732",
+        "name": "Surf Bar Kalamansi 120g/96",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888218940",
+        "name": "Surf Powder Antibac 60g/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888189806",
+        "name": "Surf Powder Red Cherry Blossom 65g/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888151827",
+        "name": "Surf Powder Kalamansi 57g/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888151841",
+        "name": "Surf Powder Sun Fresh 65g/288",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888181640",
+        "name": "Surf Powder Antibac 1100g/12",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888189813",
+        "name": "Surf Powder Red Cherry Blossom 1100g/12",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "8934868110651",
+        "name": "Surf Fabcon Luxe Perfume 670ml/12",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "8934868151135",
+        "name": "Surf Fabcon Blossom Fresh Sachet 69ml/120",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8934868151128",
+        "name": "Surf Fabcon Luxe Perfume Sachet 69ml/120",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "8934868115915",
+        "name": "Surf Fabcon Luxe Perfume Sachet 40ml/360",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "8934868110170",
+        "name": "Surf Fabcon Luxe Perfume Sachet 25ml/360",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800888187840",
+        "name": "Breeze Powder Active Bleach 70g/144",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800011113937",
+        "name": "Bioderm Bar Coolness 60g/",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800011113920",
+        "name": "Bioderm Bar Coolness 25g/",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800011782805",
+        "name": "Bioderm Bar Bloom Pink 60g/",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4801958390108",
+        "name": "Ajinomoto Crispy Fry Original 62g/14x13",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801958240007",
+        "name": "Ajinomoto Vetsin Red 100g/12x8",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800092330131",
+        "name": "Dingdong Mixed Nuts 100g/60",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4902430434393",
+        "name": "Joy Dishwashing Liquid Kalamansi 20ml/216",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4902430093767",
+        "name": "Joy Dishwashing Liquid Lemon 250ml/20",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "10982",
+        "name": "Brown Sugar 1kg per pack",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "111110217",
+        "name": "Brown Sugar 1/2kg per pack",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "10983",
+        "name": "Brown Sugar 1/4kg per pack",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "10985",
+        "name": "White Sugar 1kg per pack",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "11111024",
+        "name": "White Sugar 1/2kg per pack",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "333300024",
+        "name": "White Sugar 1/4kg per pack",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "10984",
+        "name": "Rock Salt 1kg per pack",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "9272",
+        "name": "Rock Salt 1/2kg per pack",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "10986",
+        "name": "Coco Oil 1kg per pack",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "11111040",
+        "name": "Coco Oil 1/2kg per pack",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "381",
+        "name": "Coco Oil 1/4kg",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "10987",
+        "name": "Palm Oil 1kg per pack",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "33330004",
+        "name": "Palm Oil 1/2kg per pack",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "382",
+        "name": "Palm Oil 1/4kg",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800047820304",
+        "name": "Green Cross Ethyl Alcohol 70% 500ml/24",
+        "expiry_date": "01-Oct-24"
+    },
+    {
+        "barcode": "4800047840036",
+        "name": "Zonrox Bleach Original 250ml/48",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800047841729",
+        "name": "Zonrox Colorsafe Blossom 225ml/48",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016052132",
+        "name": "C2 Green Tea Apple 500ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016052040",
+        "name": "C2 Green Tea Apple 355ml/24",
+        "expiry_date": "27-Oct-24"
+    },
+    {
+        "barcode": "4800016052057",
+        "name": "C2 Green Tea Lemon 355ml/24",
+        "expiry_date": "10-Dec-24"
+    },
+    {
+        "barcode": "2563457",
+        "name": "C2 Green Tea Apple 230ml/24",
+        "expiry_date": "08-Dec-24"
+    },
+    {
+        "barcode": "398",
+        "name": "C2 Green Tea Lemon 230ml/24",
+        "expiry_date": "08-Dec-24"
+    },
+    {
+        "barcode": "4800016644504",
+        "name": "Piattos Cheese 85g/50",
+        "expiry_date": "07-May-24"
+    },
+    {
+        "barcode": "4800016644801",
+        "name": "Piattos Cheese 40g/80",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016671500",
+        "name": "Piattos Sour Cream & onion 85g/50",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016671807",
+        "name": "Piattos Sour Cream & Onion 40g/80",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016633799",
+        "name": "Piattos Roadhouse Bbq 85g/50",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016604225",
+        "name": "Nova BBQ 40g/80",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016663505",
+        "name": "Nova Country Cheddar 78g/50",
+        "expiry_date": "13-May-24"
+    },
+    {
+        "barcode": "4800016663802",
+        "name": "Nova Country Cheddar 40g/80",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016625534",
+        "name": "V-Cut BBQ 60g/50",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016622533",
+        "name": "V-Cut BBQ 25g/80",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016603259",
+        "name": "V-Cut Cheese 25g/80",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016641503",
+        "name": "Chippy Chili & Cheese 110g/50",
+        "expiry_date": "06-May-24"
+    },
+    {
+        "barcode": "4800016641008",
+        "name": "Chippy Chili & Cheese 27g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016643095",
+        "name": "Chippy BBQ 110g/50",
+        "expiry_date": "20-May-24"
+    },
+    {
+        "barcode": "4800016642029",
+        "name": "Chippy BBQ 27g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016653094",
+        "name": "Mr. Chips Nacho 100g/50",
+        "expiry_date": "01-May-24"
+    },
+    {
+        "barcode": "4800016652035",
+        "name": "Mr. Chips Nacho 26g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016661099",
+        "name": "Roller Coaster Cheddar Cheese 85g/50",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016661006",
+        "name": "Roller Coaster Cheddar Cheese 24g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016105746",
+        "name": "Chiz Curls 18g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016110511",
+        "name": "Mang Juan Paombong 90g/18",
+        "expiry_date": "13-May-24"
+    },
+    {
+        "barcode": "4800016110535",
+        "name": "Mang Juan Paombong 26g/80",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016110528",
+        "name": "Mang Juan Suka't Sili 90g/18",
+        "expiry_date": "08-May-24"
+    },
+    {
+        "barcode": "4800016110542",
+        "name": "Mang Juan Suka't Sili 26g/80",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800010961447",
+        "name": "Cloud 9 Classic Bar 12's 28g/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016963827",
+        "name": "Cloud 9 Overload Bar 12's 28g/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016079559",
+        "name": "Hello! Chocolate 15gx10/20 (per pack)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800010064384",
+        "name": "Hello! Chocolate 15g (per piece)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016079573",
+        "name": "Hello! Vanilla 15gx10/20 (per pack)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800010064360",
+        "name": "Hello! Vanilla 15g (per piece)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016087691",
+        "name": "Magic Flakes Plain 28gx10/40 per Pack",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016087684",
+        "name": "Magic Flakes Plain 28gx10/40 per Piece",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016077999",
+        "name": "Cream-o Double Choco 36gx10/20 (per pack)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016077982",
+        "name": "Cream-o Double Choco 36g (per piece)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016077074",
+        "name": "Cream-o Choco Chip 36gx10/20 (per pack)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016077081",
+        "name": "Cream-o Choco Chip 36g (per piece)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800010075564",
+        "name": "Cream-o Choco 33gx10/20 (per pack)",
+        "expiry_date": "06-May-24"
+    },
+    {
+        "barcode": "4800010075243",
+        "name": "Cream-o Choco 33g (per piece)",
+        "expiry_date": "06-May-24"
+    },
+    {
+        "barcode": "4800010075526",
+        "name": "Cream-o Vanilla 33gx10/20 (per pack)",
+        "expiry_date": "05-Jul-24"
+    },
+    {
+        "barcode": "4800010075069",
+        "name": "Cream-o Vanilla 33g (per piece)",
+        "expiry_date": "05-Jul-24"
+    },
+    {
+        "barcode": "4800016077531",
+        "name": "Cream-o Cookies N Cream 27gx10/20 (per pack)",
+        "expiry_date": "12-Jul-24"
+    },
+    {
+        "barcode": "4800016077524",
+        "name": "Cream-o Cookies N Cream 27g (per piece)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800010075922",
+        "name": "Presto Peanut 30gx10/20 (per pack)",
+        "expiry_date": "29-Mar-24"
+    },
+    {
+        "barcode": "4800010076073",
+        "name": "Presto Peanut 30g (per piece)",
+        "expiry_date": "29-Mar-24"
+    },
+    {
+        "barcode": "4800010075601",
+        "name": "Presto Choco 30gx10/20 (per pack)",
+        "expiry_date": "13-Apr-24"
+    },
+    {
+        "barcode": "4800010075878",
+        "name": "Presto Choco 30g (per piece)",
+        "expiry_date": "13-Apr-24"
+    },
+    {
+        "barcode": "4800016076947",
+        "name": "Presto Double Choco 30gx10/20 (per pack)",
+        "expiry_date": "16-Apr-24"
+    },
+    {
+        "barcode": "4800016076930",
+        "name": "Presto Double Choco 30g (per piece)",
+        "expiry_date": "16-Apr-24"
+    },
+    {
+        "barcode": "4800016021039",
+        "name": "Great Taste White Single 30g/240",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016022265",
+        "name": "Great Taste White Twin 50g/240",
+        "expiry_date": "09-Feb-24"
+    },
+    {
+        "barcode": "4800016021596",
+        "name": "Great Taste Choco Single 30gx10",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016307041",
+        "name": "Dynamite Choco Mint 4g/50's",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016306013",
+        "name": "Maxx Candy Honey Lemon 4g/50's",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016627262",
+        "name": "Choco Knots 28g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016627279",
+        "name": "Berry Knots 28g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016627286",
+        "name": "Milky Knots 28g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016628283",
+        "name": "Pretzels Mini 28g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016552113",
+        "name": "Nissin Cup Seafood 40g/48",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016551857",
+        "name": "Nissin Cup Spicy Seafood 40g/48",
+        "expiry_date": "02-Aug-24"
+    },
+    {
+        "barcode": "4800016552274",
+        "name": "Nissin Cup Bulalo 40g/48",
+        "expiry_date": "03-Feb-24"
+    },
+    {
+        "barcode": "4800016560927",
+        "name": "Nissin Cup Spicy Hot Beef 40g/48",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016556517",
+        "name": "Payless Pancit Canton Xtra-Big Chili-Mansi 125g/48",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800016556807",
+        "name": "Payless Pancit Canton Xtra-Big Xtra Hot 125g/48",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8997035600010",
+        "name": "Pocari Sweat 350ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "6902131112925",
+        "name": "Maling Chicken Lucheon Meat 397g",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8935196503122",
+        "name": "Salonpas Medical Patch 10's/20",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "6072120165994",
+        "name": "Culture Blends Choco Mocha 27g/10s",
+        "expiry_date": "01-Sep-24"
+    },
+    {
+        "barcode": "9556771006549",
+        "name": "Culture Blends Choco Mocha 27g per piece",
+        "expiry_date": "01-Sep-24"
+    },
+    {
+        "barcode": "6072120165970",
+        "name": "Culture Blends 3 in 1 Latte 27g/10s",
+        "expiry_date": "27-Sep-24"
+    },
+    {
+        "barcode": "9556771006525",
+        "name": "Culture Blends 3 in 1 Latte 27g per piece",
+        "expiry_date": "27-Sep-24"
+    },
+    {
+        "barcode": "6072120165987",
+        "name": "Culture Blends White Coffee 27g/10s",
+        "expiry_date": "22-Sep-24"
+    },
+    {
+        "barcode": "9556771006563",
+        "name": "Culture Blends White Coffee 27g per piece",
+        "expiry_date": "22-Sep-24"
+    },
+    {
+        "barcode": "8997227171045",
+        "name": "Yoyic Cultured Milk Drink Original 130ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8997227171021",
+        "name": "Yoyic Cultured Milk Drink Blueberry 130ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8997227171038",
+        "name": "Yoyic Cultured Milk Drink Orange 130ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8997227171298",
+        "name": "Yoyic Cultured Milk Drink Peach Tea 130ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "",
+        "name": "DM Spag Pasta 400g/35",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800024580016",
+        "name": "DM Filipino Style Spag Sauce 500g/24",
+        "expiry_date": "18-Feb-24"
+    },
+    {
+        "barcode": "4800024579997",
+        "name": "DM Sweet Style Spag Sauce 500g/24",
+        "expiry_date": "30-Apr-24"
+    },
+    {
+        "barcode": "4800024556127",
+        "name": "DM Elbow Macaroni 500g/25",
+        "expiry_date": "19-Nov-24"
+    },
+    {
+        "barcode": "4800024558268",
+        "name": "Today's Mixed Fruits 836g/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800024555052",
+        "name": "DM KETCHUP TOM SWEET 320G/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "14285000068",
+        "name": "UFC BANANA CATSUP 320G/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800344009969",
+        "name": "Silver Swan Fish Sauce 100 mL/72",
+        "expiry_date": "15-Jan-25"
+    },
+    {
+        "barcode": "4800344001949",
+        "name": "Silver Swan Soy Sauce 200ml/60",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800344001826",
+        "name": "Silver Swan Soy Sauce Bot 500ml/24",
+        "expiry_date": "26-Jul-26"
+    },
+    {
+        "barcode": "4800344001628",
+        "name": "Soy Sauce Silver Swan Bot 1L/12",
+        "expiry_date": "23-Apr-27"
+    },
+    {
+        "barcode": "4801668500293",
+        "name": "Datu Puti Vinegar Bot 385ml/24",
+        "expiry_date": "18-Apr-24"
+    },
+    {
+        "barcode": "4801668100141",
+        "name": "Datu Puti Vinegar Bot 1L/12",
+        "expiry_date": "15-Mar-24"
+    },
+    {
+        "barcode": "4801668603635",
+        "name": "Datu Puti Vinegar Pouch 1L/12",
+        "expiry_date": "22-Jan-24"
+    },
+    {
+        "barcode": "4806504710119",
+        "name": "Mega Sardines Green 155g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806504710126",
+        "name": "Mega Sardines Red 155g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4902430945554",
+        "name": "Safeguard Pure White 60g sachet/162",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4808887010077",
+        "name": "Purefoods Corned Beef 150g/48",
+        "expiry_date": "21-Jul-25"
+    },
+    {
+        "barcode": "4808887010015",
+        "name": "Purefoods Corned Beef 210g/48",
+        "expiry_date": "17-Jun-24"
+    },
+    {
+        "barcode": "37600240345",
+        "name": "SPAM 25% less sodium 340g/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "37600336161",
+        "name": "SPAM LITE 340g/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4808887030037",
+        "name": "Purefoods Chinese Luncheon Meat 350g",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4808887011852",
+        "name": "Star Corned Beef 150g",
+        "expiry_date": "28-Jul-25"
+    },
+    {
+        "barcode": "4808887011760",
+        "name": "Star Carne Norte 150g",
+        "expiry_date": "10-Dec-24"
+    },
+    {
+        "barcode": "4808887012002",
+        "name": "Star Corned Beef Chunky Cheese 150g",
+        "expiry_date": "05-May-25"
+    },
+    {
+        "barcode": "4808887880014",
+        "name": "Star Beef Loaf 150g",
+        "expiry_date": "23-Feb-25"
+    },
+    {
+        "barcode": "4808887012415",
+        "name": "Bongga Carne Norte 150g",
+        "expiry_date": "30-Apr-25"
+    },
+    {
+        "barcode": "4808887012422",
+        "name": "Bongga Carne Norte Hot & Spicy 150g",
+        "expiry_date": "24-Mar-24"
+    },
+    {
+        "barcode": "4808887012408",
+        "name": "Bongga Beef Loaf 150g",
+        "expiry_date": "11-Mar-25"
+    },
+    {
+        "barcode": "48036214",
+        "name": "Star Margarine Classic 100g",
+        "expiry_date": "19-Mar-24"
+    },
+    {
+        "barcode": "4805358245051",
+        "name": "Star Margarine Classic 250g",
+        "expiry_date": "10-Apr-24"
+    },
+    {
+        "barcode": "48037433",
+        "name": "Star Margarine Sweet Blend 100g",
+        "expiry_date": "30-May-24"
+    },
+    {
+        "barcode": "4805358279056",
+        "name": "Star Margarine Sweet Blend 250g",
+        "expiry_date": "01-Mar-24"
+    },
+    {
+        "barcode": "4805358603028",
+        "name": "Magnolia Chocolait 110ml/72",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4805358600003",
+        "name": "Magnolia Chocolait 200ml/72",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4805358206014",
+        "name": "Buttercup 100g",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4805358206045",
+        "name": "Buttercup 200g",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4805358324671",
+        "name": "Cheezee Squeeze Cheddar Plain Easy Twist Cap 115g",
+        "expiry_date": "19-Mar-24"
+    },
+    {
+        "barcode": "4805358327672",
+        "name": "Cheezee Squeeze Pimiento Easy Twist Cap 115g",
+        "expiry_date": "21-Apr-24"
+    },
+    {
+        "barcode": "4805358327665",
+        "name": "Cheezee Squeeze Pimiento Easy Twist Cap 220g",
+        "expiry_date": "15-Apr-24"
+    },
+    {
+        "barcode": "31007A8E21",
+        "name": "Purefoods Chicken Breast Nuggets 135g/36",
+        "expiry_date": "04-Apr-24"
+    },
+    {
+        "barcode": "4808887941814",
+        "name": "Purefoods Chicken Breast Nuggets 200g/20",
+        "expiry_date": "09-Mar-24"
+    },
+    {
+        "barcode": "31001A8H08",
+        "name": "Purefoods Crazy Cut Nuggets (sulit pack) 135g/36",
+        "expiry_date": "29-Mar-24"
+    },
+    {
+        "barcode": "4808887941456",
+        "name": "Purefoods Crazy Cut Nuggets 200g/20",
+        "expiry_date": "10-Apr-24"
+    },
+    {
+        "barcode": "4808887360943",
+        "name": "Purefoods Chicken Drummets 240g/20",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4808887950885",
+        "name": "Purefoods Letters & Numbers Nuggets 200g/20",
+        "expiry_date": "26-Feb-24"
+    },
+    {
+        "barcode": "4808887941890",
+        "name": "Purefoods Chicken Popcorn Nuggets 200g/20",
+        "expiry_date": "08-Apr-24"
+    },
+    {
+        "barcode": "4808887942866",
+        "name": "Star Chicken & Cheese Nuggets 150g/26",
+        "expiry_date": "14-Apr-24"
+    },
+    {
+        "barcode": "4808887300826",
+        "name": "Beefies Hotdog Regular 1kg/10",
+        "expiry_date": "12-Feb-24"
+    },
+    {
+        "barcode": "4808887302776",
+        "name": "Beefies Hotdog Cheese 1kg/10",
+        "expiry_date": "13-Feb-24"
+    },
+    {
+        "barcode": "4808887300260",
+        "name": "TJ Hotdog Regular 1kg/12",
+        "expiry_date": "15-Jan-24"
+    },
+    {
+        "barcode": "4808887300093",
+        "name": "TJ Hotdog Regular 500g/20",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4808887304053",
+        "name": "Beefies Hotdog Regular 230g/36",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4808887300086",
+        "name": "TJ Hotdog Regular 230g/36",
+        "expiry_date": "10-Feb-24"
+    },
+    {
+        "barcode": "4808887301731",
+        "name": "TJ Cheesedog 230g/36",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "10991",
+        "name": "TJ Chicken Hotdog Jumbo 250g/23",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "10993",
+        "name": "TJ Chicken & Cheese Hotdog Jumbo 250g/23",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4808887970449",
+        "name": "Purefoods Pork Tocino Classic 220g/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4808887970463",
+        "name": "Purefoods Pork Tocino Sweet Chili 220g/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4808887970456",
+        "name": "Purefoods Chicken Tocino Honey Glazed 220g/24",
+        "expiry_date": "02-Dec-23"
+    },
+    {
+        "barcode": "4808887970593",
+        "name": "Purefoods Chicken Tapa 220g/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4808887970579",
+        "name": "Purefoods Beef Tapa 220g/24",
+        "expiry_date": "06-May-24"
+    },
+    {
+        "barcode": "4808887340211",
+        "name": "Purefoods Honey Cured Bacon 250g/20",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4808887970494",
+        "name": "Purefoods Chicken Longganisa 250g/20",
+        "expiry_date": "13-Mar-24"
+    },
+    {
+        "barcode": "4808887820027",
+        "name": "Vida Bacon Classic 250g/15",
+        "expiry_date": "01-Apr-24"
+    },
+    {
+        "barcode": "4808887320022",
+        "name": "Vida Sweet Ham 250g/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "9710215311075",
+        "name": "Fiesta Ham Chicken 1kg",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800088270489",
+        "name": "Virginia Pear-Shaped Chicken Ham 800g",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "2902826101399",
+        "name": "Magnolia Whole Dressed Chicken (1 pack)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801981126866",
+        "name": "Wilkins Pure 330ml/30",
+        "expiry_date": "08-May-24"
+    },
+    {
+        "barcode": "4801981107971",
+        "name": "Wilkins Pure 500ml/24",
+        "expiry_date": "18-Aug-24"
+    },
+    {
+        "barcode": "4801981119981",
+        "name": "Wilkins Pure 1L/12",
+        "expiry_date": "03-Aug-24"
+    },
+    {
+        "barcode": "4801981164714",
+        "name": "Wilkins Distilled Water 7L/3",
+        "expiry_date": "23-Feb-24"
+    },
+    {
+        "barcode": "4801981190119",
+        "name": "Nutri Boost Chocolate Milk 110ml/10",
+        "expiry_date": "02-Apr-24"
+    },
+    {
+        "barcode": "4801981189519",
+        "name": "Nutri Boost Orange 110ml/10",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801981189526",
+        "name": "Nutri Boost Strawberry 110ml/10",
+        "expiry_date": "31-Aug-24"
+    },
+    {
+        "barcode": "4801981139743",
+        "name": "Minute Maid Fresh Tetra Pineapple 180ml/10",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801981139736",
+        "name": "Minute Maid Fresh Tetra Mango 180ml/10",
+        "expiry_date": "28-May-24"
+    },
+    {
+        "barcode": "4801981164868",
+        "name": "Minute Maid Fresh Tetra Orange 180ml/10",
+        "expiry_date": "26-May-24"
+    },
+    {
+        "barcode": "4801981164851",
+        "name": "Minute Maid Fresh Tetra Apple 180ml/10",
+        "expiry_date": "26-May-24"
+    },
+    {
+        "barcode": "4801981120147",
+        "name": "Minute Maid Fresh 250ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801981125180",
+        "name": "Minute Maid Pulp Orange 330ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801981125197",
+        "name": "Minute Maid Pulp Bot Orange Mango 330ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801981120369",
+        "name": "Real Leaf Honey Lemon 480ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801981127177",
+        "name": "Coke Swakto 195ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801981127191",
+        "name": "Sprite Swakto 195ml/12",
+        "expiry_date": "07-Mar-24"
+    },
+    {
+        "barcode": "4801981127207",
+        "name": "Orange Royal Swakto 195ml/12",
+        "expiry_date": "23-Mar-24"
+    },
+    {
+        "barcode": "4801981189274",
+        "name": "Lemon Royal Swakto 195ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801981118502",
+        "name": "Coke Mismo 290ml/12",
+        "expiry_date": "27-Feb-24"
+    },
+    {
+        "barcode": "4801981118601",
+        "name": "Sprite Mismo 290ml/12",
+        "expiry_date": "26-Jan-24"
+    },
+    {
+        "barcode": "4801981118571",
+        "name": "Royal Mismo 290ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801981110001",
+        "name": "Coke Can Regular 320ml/24",
+        "expiry_date": "24-Sep-24"
+    },
+    {
+        "barcode": "4801981110209",
+        "name": "Sprite Can Regular 320ml/24",
+        "expiry_date": "12-Sep-24"
+    },
+    {
+        "barcode": "4801981110100",
+        "name": "Royal Can Regular 320ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801981195428",
+        "name": "Coke Can with Jack Daniels 7% Alc. 320ml/12",
+        "expiry_date": "22-Mar-24"
+    },
+    {
+        "barcode": "4801981192717",
+        "name": "Lemon Dou Devil Lemon 9% alc 330ml/12",
+        "expiry_date": "27-Apr-24"
+    },
+    {
+        "barcode": "4801981122950",
+        "name": "Coke 1.25 Liter/6",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801981122974",
+        "name": "Sprite 1.25 Liter/6",
+        "expiry_date": "02-Jan-24"
+    },
+    {
+        "barcode": "4801981122967",
+        "name": "Orange Royal 1.25 Liter/6",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801981191376",
+        "name": "Lemon Royal 1.25 Liter/6",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801981116072",
+        "name": "Coke 1.5 Liter/12",
+        "expiry_date": "02-May-24"
+    },
+    {
+        "barcode": "4801981116270",
+        "name": "Sprite 1.5 Liter/12",
+        "expiry_date": "03-May-24"
+    },
+    {
+        "barcode": "4801981116171",
+        "name": "Orange Royal 1.5 Liter/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4897036694404",
+        "name": "Predator Energy Drink 245ml/12",
+        "expiry_date": "20-Jun-24"
+    },
+    {
+        "barcode": "4800060255107",
+        "name": "Bathroom Tissue Joy Extra 4rolls/pack/24",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800060201609",
+        "name": "Kleenex Facial Tissue 60 sheets 2ply/96",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800060090500",
+        "name": "KleenFoil Standard 7mtrs (aluminum foil)/24",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800060430078",
+        "name": "KleenWrap Standard 30mtrs (food wrap)/24",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4800060906092",
+        "name": "Purity Cotton Pads 40's/96",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800060331207",
+        "name": "Kotex Feminine Liner Fresh Scented 8's/48",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "",
+        "name": "Huggies Diaper Dry Eco New Born 38+2/4",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "8888336020716",
+        "name": "Huggies Diaper Dry Eco Large 26+4/4 per pack",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "8888336020716L",
+        "name": "Huggies Diaper Dry Eco Large 26+4/4 per piece",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8888336020815",
+        "name": "Huggies Diaper Dry Eco XL 22+4/4 per pack",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "8888336020815X",
+        "name": "Huggies Diaper Dry Eco XL 22+4/4 per piece",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "7622300559991",
+        "name": "Tang Orange 25g/144",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "7622300601768",
+        "name": "Tang Pineapple 25g/144",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8992760221066",
+        "name": "Oreo Original 12x9x27.6g per Pack",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8992760121014",
+        "name": "Oreo Original 12x9x27.6g per Piece",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "",
+        "name": "Chips Ahoy 38.5g",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4808647020094",
+        "name": "Eden Cheese 160g/48",
+        "expiry_date": "17-Jan-24"
+    },
+    {
+        "barcode": "7622201394493",
+        "name": "Eden Cheese Save 5.00 160g/48",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "7622210892126",
+        "name": "Eden Cheese 45g/",
+        "expiry_date": "01-Feb-24"
+    },
+    {
+        "barcode": "4807770270291",
+        "name": "Lucky Me! Pancit Canton Chili-Mansi 80g/72",
+        "expiry_date": "24-Apr-24"
+    },
+    {
+        "barcode": "4807770272554",
+        "name": "Lucky Me! Pancit Canton Sweet & Spicy 80g/72",
+        "expiry_date": "17-Apr-24"
+    },
+    {
+        "barcode": "4807770271229",
+        "name": "Lucky Me! Pancit Canton Extra Hot Chili 80g/73",
+        "expiry_date": "29-Apr-24"
+    },
+    {
+        "barcode": "4807770270017",
+        "name": "Lucky Me! Beef na Beef 55g/72",
+        "expiry_date": "26-May-24"
+    },
+    {
+        "barcode": "4807770270024",
+        "name": "Lucky Me! Chicken na Chicken 55g/72",
+        "expiry_date": "17-Apr-24"
+    },
+    {
+        "barcode": "750515021204",
+        "name": "Honey Graham Crackers 200g/24",
+        "expiry_date": "24-Apr-24"
+    },
+    {
+        "barcode": "4806512026387",
+        "name": "Mama Sitas Oyster Sauce 60g/60",
+        "expiry_date": "12-May-24"
+    },
+    {
+        "barcode": "4804888809474",
+        "name": "Mama Sitas Oyster Sauce 30g/60",
+        "expiry_date": "18-Jan-24"
+    },
+    {
+        "barcode": "4806512023546",
+        "name": "Mama Sitas Barbecue Marinade 80ml/36",
+        "expiry_date": "23-Jan-24"
+    },
+    {
+        "barcode": "4801234107710",
+        "name": "Baygon Mosquito Spray 300g Odorless/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8850007371397",
+        "name": "Modess Cottony Soft Regular No Wings 8's/48",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "8850007371403",
+        "name": "Modess Cottony Soft Regular With Wings 8's/48",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "8850007372882",
+        "name": "Modess Cottony Maxi Wing 16's/30 (per pack)",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "8850007372882P",
+        "name": "Modess Cottony Maxi Wing 16's/30 (per piece)",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "8850007371441",
+        "name": "Modess Cottony Maxi Non-Wing 12's/24 (per pack)",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "8850007371441P",
+        "name": "Modess Cottony Maxi Non-Wing 12's/24 (per piece)",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4801010327103",
+        "name": "Modess All Night Wing 4's/24 (per pack)",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4801010327202",
+        "name": "Modess All Night Wing 10's/24 (per pack)",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4801010327202P",
+        "name": "Modess All Night Wing 10's/24 (per piece)",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "4801010369127",
+        "name": "Carefree Flats Breathable15's",
+        "expiry_date": "28-Feb-25"
+    },
+    {
+        "barcode": "8850007331797",
+        "name": "Carefree Healthy Fresh individual pack 20's",
+        "expiry_date": "23-Apr-25"
+    },
+    {
+        "barcode": "9556006060346",
+        "name": "Johnson's Baby Lotion Milk+Rice 100ml/48",
+        "expiry_date": "01-Oct-24"
+    },
+    {
+        "barcode": "9310059050071",
+        "name": "Listerine Cool Mint 250ml/16",
+        "expiry_date": "01-Nov-24"
+    },
+    {
+        "barcode": "4801010194002",
+        "name": "Band-Aid Plastic Strips 50s/48",
+        "expiry_date": "01-Oct-24"
+    },
+    {
+        "barcode": "4801010120117",
+        "name": "JB powder Bedtime 25g",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "48040693",
+        "name": "JB powder Blossoms 25g",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "48032742",
+        "name": "JB powder Regular 25g",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "48035996",
+        "name": "JB Oil Regular 25ml",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "48032766",
+        "name": "JB Cologne Regular 25ml",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "5038483158333",
+        "name": "DUR ID Fetherlite 3x24x12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "5052197050233",
+        "name": "Durex Invesible Extra Sensitive 3's",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8850163900011",
+        "name": "Durex Play Lubricant 50ml",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800314009692",
+        "name": "Scotch Brite Heavy Duty Scrub Sponge Mini",
+        "expiry_date": "No Expiry"
+    },
+    {
+        "barcode": "8410028902477",
+        "name": "Alfonso Light 500ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8410028900077",
+        "name": "Alfonso Light 700ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8809640030338",
+        "name": "Chingu Grape Soju 360ml/20",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8809640030901",
+        "name": "Chingu Strawberry Soju 360ml/20",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8809640030666",
+        "name": "Chingu Kyoho Grape Soju 360ml/20",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8809640030659",
+        "name": "Chingu Mandarin Soju 360ml/20",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800194152709",
+        "name": "Pods Vegetarian Snacks 28g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800194180184",
+        "name": "Oishi Fishdah Kropek 80g/15",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800194136648",
+        "name": "Oishi Fishdah Kropek 22g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800194177085",
+        "name": "Oishi Prawn Crackers Plain 100g/30",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4891208040143",
+        "name": "Oishi Prawn Crackers Plain 24g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4891208040181",
+        "name": "Rinbee Cheese Sticks 24g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "897399001028",
+        "name": "Crackling Salt & Vinegar 100g/30",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800194116084",
+        "name": "Crackling Salt & Vinegar 24g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4891208040167",
+        "name": "Kirei Yummy Flakes 20g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800194116169",
+        "name": "Spicy Seafoods Curls 24g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800194116619",
+        "name": "Fish Crackers 24g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4891208040174",
+        "name": "Boogyman Crunch 24g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800194173223",
+        "name": "Bread Pan Cheese & Onion 42g/60",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800194173681",
+        "name": "Bread Pan Buttered Toast 42gx60",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800194152327",
+        "name": "Pillows Ube 38g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800194116466",
+        "name": "Pillows Choco 38g/100",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4809010229526",
+        "name": "Sweet-o Mango Tetra Pack 200ml/10",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806507455888",
+        "name": "H2Zero 5L/4's",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "54028367911",
+        "name": "Yakult per Pack 80mlx5",
+        "expiry_date": "14-Mar-24"
+    },
+    {
+        "barcode": "054028367911P",
+        "name": "Yakult per Piece 80mlx5",
+        "expiry_date": "14-Mar-24"
+    },
+    {
+        "barcode": "4800193100404",
+        "name": "Permex Tuna Flakes in Oil 99gms/48",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800193100220",
+        "name": "Permex Tuna Spanish Style Hot & Spicy 184gms/48",
+        "expiry_date": "28-May-24"
+    },
+    {
+        "barcode": "4800193101531",
+        "name": "King Cup Spanish Style Hot & Spicy 155grms/100",
+        "expiry_date": "25-Aug-25"
+    },
+    {
+        "barcode": "4800193101135",
+        "name": "King Cup Sardines Green 155g/100",
+        "expiry_date": "05-May-25"
+    },
+    {
+        "barcode": "4800193101142",
+        "name": "King Cup Sardines Red 155g/100",
+        "expiry_date": "28-May-26"
+    },
+    {
+        "barcode": "8996001414309",
+        "name": "Kopiko Blanca Single 30g/10x24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8998666001726",
+        "name": "Kopiko Blanca Twin 58g/10x24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8996001410226",
+        "name": "Kopiko Black Single 30g/10x24",
+        "expiry_date": "30-Sep-24"
+    },
+    {
+        "barcode": "8998666001702",
+        "name": "Kopiko Black Twin 56g/10x24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8996001410547",
+        "name": "Kopiko Brown Single 27.5g/10x24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8998666001719",
+        "name": "Kopiko Brown Twin 53.5g/10x24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8996001603192",
+        "name": "Energen Champion Single 35g/10x24",
+        "expiry_date": "06-Jul-24"
+    },
+    {
+        "barcode": "8996001603444",
+        "name": "Energen Champion Twin 60g/8x24",
+        "expiry_date": "04-Jan-24"
+    },
+    {
+        "barcode": "748485401492",
+        "name": "Birch Tree Fortified Milk Drink 33g/8x20",
+        "expiry_date": "31-Oct-24"
+    },
+    {
+        "barcode": "8996001350584",
+        "name": "Cal Cheese 48g/12x5",
+        "expiry_date": "27-Nov-24"
+    },
+    {
+        "barcode": "8996001338063",
+        "name": "Fres Barley Mint 3g/50x24",
+        "expiry_date": "11-Jun-24"
+    },
+    {
+        "barcode": "8996001346297",
+        "name": "Fres Cherry 3g/50x24",
+        "expiry_date": "08-Jun-24"
+    },
+    {
+        "barcode": "8996001346365",
+        "name": "Fres Apple Peach 3g/50x24",
+        "expiry_date": "14-Apr-24"
+    },
+    {
+        "barcode": "8996001346303",
+        "name": "Fres Grape 3g/50x24",
+        "expiry_date": "28-Apr-24"
+    },
+    {
+        "barcode": "748485150079",
+        "name": "Coco Mama Fresh Gata 200ml/48",
+        "expiry_date": "17-Oct-24"
+    },
+    {
+        "barcode": "748485150093",
+        "name": "Coco Mama Fresh Gata 400ml/48",
+        "expiry_date": "17-Oct-24"
+    },
+    {
+        "barcode": "4800022010287",
+        "name": "Hunts Pork & Beans Pouch 100g/48",
+        "expiry_date": "09-Feb-24"
+    },
+    {
+        "barcode": "4800022100070",
+        "name": "Hunts Pork & Beans 175g/48",
+        "expiry_date": "17-Mar-24"
+    },
+    {
+        "barcode": "748485800738",
+        "name": "Argentina Beef Loaf 1450g/48",
+        "expiry_date": "01-Feb-26"
+    },
+    {
+        "barcode": "748485800790",
+        "name": "Argentina Fiesta Sausage 175g/48",
+        "expiry_date": "27-Jul-25"
+    },
+    {
+        "barcode": "748485802060",
+        "name": "Wow Ulam Adobo 155g/48",
+        "expiry_date": "27-Mar-26"
+    },
+    {
+        "barcode": "748485802077",
+        "name": "Wow Ulam Afritada 155g/48",
+        "expiry_date": "20-Mar-26"
+    },
+    {
+        "barcode": "748485802084",
+        "name": "Wow Ulam Caldereta 155g/48",
+        "expiry_date": "08-Sep-25"
+    },
+    {
+        "barcode": "748485802220",
+        "name": "Wow Ulam Mechado 155g/48",
+        "expiry_date": "25-Apr-26"
+    },
+    {
+        "barcode": "748485802381",
+        "name": "Wow Ulam Menudo 155g/48",
+        "expiry_date": "01-Mar-26"
+    },
+    {
+        "barcode": "748485100401",
+        "name": "Century Tuna Flakes in Oil 155g/50",
+        "expiry_date": "19-Apr-25"
+    },
+    {
+        "barcode": "748485900070",
+        "name": "Fresca Tuna Adobo 175g/48",
+        "expiry_date": "21-Dec-25"
+    },
+    {
+        "barcode": "748485900056",
+        "name": "Fresca Tuna Afritada 175g/48",
+        "expiry_date": "29-Mar-26"
+    },
+    {
+        "barcode": "748485900032",
+        "name": "Fresca Tuna Caldereta 175g/48",
+        "expiry_date": "09-Mar-26"
+    },
+    {
+        "barcode": "748485900049",
+        "name": "Fresca Tuna Mechado 175g/48",
+        "expiry_date": "25-Mar-26"
+    },
+    {
+        "barcode": "748485900087",
+        "name": "Fresca Tuna Hot & Spicy 175g/48",
+        "expiry_date": "27-Jan-26"
+    },
+    {
+        "barcode": "748485900063",
+        "name": "Fresca Tuna Lechon Paksiw 175g/48",
+        "expiry_date": "07-Dec-25"
+    },
+    {
+        "barcode": "748485802831",
+        "name": "Lucky 7 Beef Loaf 150g/48",
+        "expiry_date": "27-Feb-26"
+    },
+    {
+        "barcode": "748485801728",
+        "name": "Lucky 7 Carne Norte 150g/48",
+        "expiry_date": "23-Apr-26"
+    },
+    {
+        "barcode": "748485802855",
+        "name": "Lucky 7 Meat Loaf 150g/48",
+        "expiry_date": "02-Apr-25"
+    },
+    {
+        "barcode": "748485200101",
+        "name": "Lucky 7 Sardines in Tomato Sauce 155g/100",
+        "expiry_date": "28-Mar-26"
+    },
+    {
+        "barcode": "748485200118",
+        "name": "Lucky 7 Sardines in Tomato Sauce with Chili 155g/100",
+        "expiry_date": "29-Mar-26"
+    },
+    {
+        "barcode": "748485400808",
+        "name": "Angel Condensada 380ml/48",
+        "expiry_date": "31-Aug-24"
+    },
+    {
+        "barcode": "748485400860",
+        "name": "Angel Evaporada Liquid Creamer 365ml/48",
+        "expiry_date": "31-Mar-24"
+    },
+    {
+        "barcode": "748485401225",
+        "name": "Angel Kremdensada Creamer 410ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801032211046",
+        "name": "Red Horse Beer 330ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801032211138",
+        "name": "Red Horse Beer 1000ml/6",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801032741048",
+        "name": "San Mig Light 330ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801032281049",
+        "name": "San Mig Flavored Apple 330ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801032281056",
+        "name": "San Mig Flavored Lemon 330ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "10988",
+        "name": "Magnolia Health Tea Apple /24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "10989",
+        "name": "Magnolia Health Tea Lemon /24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "10990",
+        "name": "Magnolia Fruitdrink Grape /24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "490",
+        "name": "Magnolia Fruitdrink Mango 250ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249002362",
+        "name": "CDO Sugar Palm (Kaong) Red 240g/24",
+        "expiry_date": "19-Jul-24"
+    },
+    {
+        "barcode": "4800249989717",
+        "name": "CDO Sugar Palm (Kaong) White 240g/24",
+        "expiry_date": "14-Oct-24"
+    },
+    {
+        "barcode": "4800249989694",
+        "name": "CDO Nata De Coco White 240g/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4809010626332",
+        "name": "Cheese Cake 30gx10/12",
+        "expiry_date": "22-Mar-24"
+    },
+    {
+        "barcode": "4809010626011",
+        "name": "Cheese Cake 30g",
+        "expiry_date": "22-Mar-24"
+    },
+    {
+        "barcode": "4806018406485",
+        "name": "Cheese Cake Big Cupcake 42gx10/12",
+        "expiry_date": "15-Mar-24"
+    },
+    {
+        "barcode": "4806018406478",
+        "name": "Cheese Cake Big Cupcake 42g",
+        "expiry_date": "15-Mar-24"
+    },
+    {
+        "barcode": "",
+        "name": "Lemon Square Assorted 30gx10/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806018405662",
+        "name": "Lemon Square Lava Cake Choco 40gx10/12",
+        "expiry_date": "22-Mar-24"
+    },
+    {
+        "barcode": "4806018405655",
+        "name": "Lemon Square Lava Cake Choco 40g",
+        "expiry_date": "22-Mar-24"
+    },
+    {
+        "barcode": "4806018405792",
+        "name": "Lemon Square Lava Cake Bavarian 38gx10/12",
+        "expiry_date": "22-Mar-24"
+    },
+    {
+        "barcode": "4806018405785",
+        "name": "Lemon Square Lava Cake Bavarian 38g",
+        "expiry_date": "22-Mar-24"
+    },
+    {
+        "barcode": "4806018406058",
+        "name": "Lemon Square Lava Cake D-Dutch 38gx10/12",
+        "expiry_date": "08-Mar-24"
+    },
+    {
+        "barcode": "4806018406041",
+        "name": "Lemon Square Lava Cake D-Dutch 38g",
+        "expiry_date": "08-Mar-24"
+    },
+    {
+        "barcode": "",
+        "name": "Whattatops Assorted 35gx10/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806018403729",
+        "name": "Whattatops Choco 35gx10/12",
+        "expiry_date": "22-Mar-24"
+    },
+    {
+        "barcode": "4806018403712",
+        "name": "Whattatops Choco 35g",
+        "expiry_date": "22-Mar-24"
+    },
+    {
+        "barcode": "4806018403484",
+        "name": "Whattatops Vanilla Cream 35gx10/12",
+        "expiry_date": "29-Mar-24"
+    },
+    {
+        "barcode": "4806018403477",
+        "name": "Whattatops Vanilla Cream 35g",
+        "expiry_date": "29-Mar-24"
+    },
+    {
+        "barcode": "4806018405815",
+        "name": "Whattatops Cookies & Cream 35gx10/12",
+        "expiry_date": "22-Mar-24"
+    },
+    {
+        "barcode": "4806018405808",
+        "name": "Whattatops Cookies & Cream 35g",
+        "expiry_date": "22-Mar-24"
+    },
+    {
+        "barcode": "4806018405891",
+        "name": "Whattatops Mango Graham 35gx10/12",
+        "expiry_date": "22-Mar-24"
+    },
+    {
+        "barcode": "4806018405884",
+        "name": "Whattatops Mango Graham 35g",
+        "expiry_date": "22-Mar-24"
+    },
+    {
+        "barcode": "4806018407468",
+        "name": "Inipit Assorted 230g/12",
+        "expiry_date": "10-Mar-24"
+    },
+    {
+        "barcode": "4806018401596",
+        "name": "Inipit Leche Flan 23gx10/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806018401589",
+        "name": "Inipit Leche Flan 23g",
+        "expiry_date": "10-Mar-24"
+    },
+    {
+        "barcode": "",
+        "name": "Inipit Choco 23gx10/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806018401602",
+        "name": "Inipit Choco 23g",
+        "expiry_date": "10-Mar-24"
+    },
+    {
+        "barcode": "",
+        "name": "Inipit Ube Keso 23gx10/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806018407444",
+        "name": "Inipit Ube Keso 23g",
+        "expiry_date": "10-Mar-24"
+    },
+    {
+        "barcode": "",
+        "name": "Inipit Buko Pandan 23gx10/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806018403606",
+        "name": "Inipit Buko Pandan 23g",
+        "expiry_date": "10-Mar-24"
+    },
+    {
+        "barcode": "4806018403866",
+        "name": "Choo Choo Choco Vanilla 38gx10/12",
+        "expiry_date": "25-Feb-24"
+    },
+    {
+        "barcode": "4806018403859",
+        "name": "Choo Choo Choco Vanilla 38g",
+        "expiry_date": "25-Feb-24"
+    },
+    {
+        "barcode": "4806018405532",
+        "name": "LS Fun Square Butterscotch 30gx10/12",
+        "expiry_date": "03-Apr-24"
+    },
+    {
+        "barcode": "4806018405525",
+        "name": "LS Fun Square Butterscotch 30g",
+        "expiry_date": "03-Apr-24"
+    },
+    {
+        "barcode": "4800030040085",
+        "name": "Sunshine Macaroni Elbow 1kg/12",
+        "expiry_date": "02-Oct-24"
+    },
+    {
+        "barcode": "4800030040047",
+        "name": "Sunshine Macaroni Elbow 400g/30",
+        "expiry_date": "20-Sep-25"
+    },
+    {
+        "barcode": "4800030700002",
+        "name": "Sunshine Spag Pasta 800g & Sauce 900g Bundle/9",
+        "expiry_date": "01-Mar-24"
+    },
+    {
+        "barcode": "4800030700026",
+        "name": "Sunshine Spag Pasta 400g & Sauce 500g Bundle/15",
+        "expiry_date": "01-Apr-24"
+    },
+    {
+        "barcode": "4800030064814",
+        "name": "Sunshine Spag Sauce Kiddie Style Sweet Blend 1kg/12",
+        "expiry_date": "27-Feb-25"
+    },
+    {
+        "barcode": "4800030064821",
+        "name": "Sunshine Spag Sauce Kiddie Style Sweet Blend 500g/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800030064807",
+        "name": "Sunshine Spag Sauce Pinoy Style Sweet Blend 900g/12",
+        "expiry_date": "02-Feb-25"
+    },
+    {
+        "barcode": "4800030001482",
+        "name": "Sunshine Spag Pasta 900g/12",
+        "expiry_date": "25-Sep-25"
+    },
+    {
+        "barcode": "4800030001055",
+        "name": "Sunshine Spag Pasta 400g/30",
+        "expiry_date": "17-Sep-25"
+    },
+    {
+        "barcode": "4800017928009",
+        "name": "Raisins Sevilla California Seedless 100g",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4803925033421",
+        "name": "Sting Strawberry 330ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4803925350054",
+        "name": "Gatorade Blue Bolt 350ml/24",
+        "expiry_date": "16-May-24"
+    },
+    {
+        "barcode": "",
+        "name": "Alaska Condensada 300ml/48",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800575140370",
+        "name": "Alaska Evaporada 370ml/48",
+        "expiry_date": "04-Jan-24"
+    },
+    {
+        "barcode": "4800575370302",
+        "name": "Cowbell Condensed Creamer Can 374g/48",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800575144958",
+        "name": "Cowbell Evaporada 370ml/48",
+        "expiry_date": "29-Mar-24"
+    },
+    {
+        "barcode": "4800575884502",
+        "name": "Alpine Evaporated Full Cream Milk 140ml/48",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800034040111",
+        "name": "Dazz Dishwashing Paste Lime Cup 200g/48",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800034040210",
+        "name": "Dazz Dishwashing Paste Lemon Cup 200g/48",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800034605723",
+        "name": "Dazz Dish-Liquid (Kal+Citrs) Double 250ml",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800034606430",
+        "name": "Dazz Dish-Liquid (Kal+Citrs) Double 750ml",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800611546760",
+        "name": "Cobra Pet Bot Original 350ml/24",
+        "expiry_date": "24-Jan-24"
+    },
+    {
+        "barcode": "4800611223579",
+        "name": "Cobra Pet Bot Smart 350ml/24",
+        "expiry_date": "26-May-24"
+    },
+    {
+        "barcode": "4800611112880",
+        "name": "Cobra Pet Bot Berry Blast 350ml/24",
+        "expiry_date": "13-May-24"
+    },
+    {
+        "barcode": "4800220531355",
+        "name": "Tanduay Ice Original 330ml/24",
+        "expiry_date": "26-Jan-24"
+    },
+    {
+        "barcode": "4800220596354",
+        "name": "Tanduay Ice Light Pomelo 330ml/24",
+        "expiry_date": "01-Aug-24"
+    },
+    {
+        "barcode": "4800220531379",
+        "name": "Tanduay Ice Blue Fresh Ice 330ml/24",
+        "expiry_date": "28-Jan-24"
+    },
+    {
+        "barcode": "4800220503451",
+        "name": "Tanduay Rhum Dark 250ml/30",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800220503253",
+        "name": "Tanduay Rhum Dark 375ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800220503154",
+        "name": "Tanduay Rhum Dark 750ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800220587253",
+        "name": "Tanduay Rhum Light 375ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800220587154",
+        "name": "Tanduay Rhum Light 750ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800220604752",
+        "name": "Tanduay Select 700ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249023800",
+        "name": "Bigtime Cheesedog Sulit Regular 200g/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249033380",
+        "name": "Bingo Chicken Hotdog Jumbo 250g/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249284317",
+        "name": "Bingo Hotdog Jumbo FW 250g/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249110500",
+        "name": "CDO Bibbo Chickendog Classic 230g",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249070132",
+        "name": "CDO Cooked Ham 250g/32",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249042726",
+        "name": "CDO Funtastyk Chicken Tocino 225g/36",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249004748",
+        "name": "CDO Funtastyk Young Pork Tocino 225g/36",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249080049",
+        "name": "CDO Idol Cheesedog Regular 250g/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249886009",
+        "name": "CDO Ulam Burger Classic Regular 228g/30",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249005943",
+        "name": "CDO Crispy Burger 228g/21",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249284287",
+        "name": "Holiday Bingo Hotdog Mini FW 250g/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249280029",
+        "name": "Holiday Cheesedog Regular 250g/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249042931",
+        "name": "Holiday Chicken Siomai 240g/18",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249042924",
+        "name": "Holiday Chicken Siomai 960g/9",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249920048",
+        "name": "Holiday Quekiam 220g/22",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800249940046",
+        "name": "Holiday Squid Balls 220g/20",
+        "expiry_date": "09-Jan-24"
+    },
+    {
+        "barcode": "10992",
+        "name": "Idol Go Balls 50's 707g/8",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806522870680",
+        "name": "Dimsum Pork Siomai 1kg/20",
+        "expiry_date": "10-Mar-24"
+    },
+    {
+        "barcode": "10994",
+        "name": "Eco Bag plain",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "10995",
+        "name": "Eco Bag w/ design",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4869201710066",
+        "name": "Scissors 6\"",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "9556939010432",
+        "name": "Eraser",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4897001196414967",
+        "name": "Pencil (mongol 2) 12pcs/box",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "3198",
+        "name": "Plastic Envelop - long",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4809012372244",
+        "name": "Ultra Crayons 8's",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4809012372251",
+        "name": "Ultra Crayons 16's",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "71662100087",
+        "name": "Crayola Crayons 8's",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "71662100162",
+        "name": "Crayola Crayons 16's",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "71662100247",
+        "name": "Crayola Crayons 24's",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "26000223751",
+        "name": "Elmers Glue-All 40g",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "26000223720",
+        "name": "Elmers Glue-All 130g",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806503872276",
+        "name": "Writing Pad Grade 1 80 leaves",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806508030503",
+        "name": "Writing Pad Grade 2 80 leaves",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806503872375",
+        "name": "Writing Pad Grade 4 80 leaves",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "3487",
+        "name": "Intermediate Pad 80 leaves",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806519190654",
+        "name": "Spelling Booklet Grade 1, 2, and 3 (60 leaves)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806519190661",
+        "name": "Spelling Booklet Grade 4, 5, and 6",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8280",
+        "name": "Ballpen (black)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "1379",
+        "name": "Ballpen (blue)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "138869",
+        "name": "Ballpen (red)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "6936943120915",
+        "name": "Highlighters (HBW)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4006381333641",
+        "name": "Highlighters (Stabilo)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806021391709",
+        "name": "Correction Tape",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4806524470017",
+        "name": "Yellow Pad 80 leaves",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "2397",
+        "name": "Construction Paper per pack 20's",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "1001759",
+        "name": "Book Paper Letter (8.5x11) 20's",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "1001758",
+        "name": "Book Paper Legal (8.5x13) 20's",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "5572",
+        "name": "Illustration Board 1 whole",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "297",
+        "name": "Illustration Board half",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4409",
+        "name": "Illustration Board 1/4",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4408",
+        "name": "Illustration Board 1/18",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "1001814",
+        "name": "Folder - short (white/brown)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8231",
+        "name": "Folder - long (white/brown)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "20941",
+        "name": "Sharpener (double)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800555241080",
+        "name": "Writing Notebook 80 leaves",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4801278343655",
+        "name": "Yarn Notebook with plastic cover 80 leaves",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "487",
+        "name": "Scotch Tape 3/4\" (18mm)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "7003",
+        "name": "Manila Paper (36x48)",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086036094",
+        "name": "Selecta Strawberry 1.4L/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086036063",
+        "name": "Selecta Ube Royale 1.4L/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086035943",
+        "name": "Selecta Coffee Crumble 1.3L/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086047625",
+        "name": "Selecta Choco Almond Fudge 1.3L/1",
+        "expiry_date": "25-Mar-25"
+    },
+    {
+        "barcode": "4800086047854",
+        "name": "Selecta Choco Almond Fudge & C&Cream 1.3L/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086035967",
+        "name": "Selecta Double Dutch 1.3L/1",
+        "expiry_date": "13-Apr-25"
+    },
+    {
+        "barcode": "4800086035929",
+        "name": "Selecta Cookies & Cream 1.3L/1",
+        "expiry_date": "10-Feb-25"
+    },
+    {
+        "barcode": "4800086048721",
+        "name": "Selecta Ube Macapuno 1.3L/1",
+        "expiry_date": "02-Apr-25"
+    },
+    {
+        "barcode": "4800086036186",
+        "name": "Selecta Very Rocky Road 1.3L/1",
+        "expiry_date": "12-Apr-25"
+    },
+    {
+        "barcode": "4800086038630",
+        "name": "Selecta DoubleDutch/VRkyRoad 1.3L/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086040633",
+        "name": "Selecta RkyRd/C&Cream 1.3L/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086040671",
+        "name": "Selecta DblDtch/C&Cream 1.3L/1",
+        "expiry_date": "17-Mar-25"
+    },
+    {
+        "barcode": "4800086048745",
+        "name": "Selecta Halo-halo 1.3L/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086048769",
+        "name": "Selecta Mango Sansrival 1.3L/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086045560",
+        "name": "Selecta Pistachio and Cashew 1.3L/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086049742",
+        "name": "2N1 Birthday Esp CC-Rocky Road 1.3L/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086049728",
+        "name": "Birthday Esp Rocky Road 1.3L/1",
+        "expiry_date": "08-Mar-25"
+    },
+    {
+        "barcode": "4800086049735",
+        "name": "Birthday Esp Double Dutch 1.3L/1",
+        "expiry_date": "15-Mar-25"
+    },
+    {
+        "barcode": "4800086049698",
+        "name": "Birthday Esp Cookie & Cream 1.3L/1",
+        "expiry_date": "15-Mar-25"
+    },
+    {
+        "barcode": "4800086047106",
+        "name": "Creamdae Esp Buco Pandan & Mango Float 1.3L/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086047717",
+        "name": "Creamdae 3+1 Choco-Keso-Ube-Mango 1.3L/1",
+        "expiry_date": "29-Mar-25"
+    },
+    {
+        "barcode": "4800086049810",
+        "name": "Birthday Choco Plain 1.3L/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086049834",
+        "name": "Birthday Mango Plain 1.3L/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086049827",
+        "name": "Birthday Ube Plain 1.3L/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086038647",
+        "name": "Selecta DblDtch/VRkyRd 750ml/1",
+        "expiry_date": "17-Feb-25"
+    },
+    {
+        "barcode": "4800086040657",
+        "name": "Selecta RkyRd/C&Cream 750ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086040688",
+        "name": "Selecta DblDtch/C&Cream 750ml/1",
+        "expiry_date": "28-Feb-25"
+    },
+    {
+        "barcode": "4800086040909",
+        "name": "Selecta Coffee Crumble 750ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086040886",
+        "name": "Selecta Rocky Road 750ml/1",
+        "expiry_date": "08-Mar-25"
+    },
+    {
+        "barcode": "4800086040879",
+        "name": "Selecta Double Dutch 750ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086040893",
+        "name": "Selecta Cookies & Cream 750ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086040916",
+        "name": "Selecta Supreme Quezo Real 750ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086047380",
+        "name": "Selecta Choco Almond Fudge 750ml/1",
+        "expiry_date": "03-Apr-25"
+    },
+    {
+        "barcode": "4800086049711",
+        "name": "Birthday Esp Rocky Road 750ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086049704",
+        "name": "Birthday Esp Cookies & Cream 750ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086047632",
+        "name": "Creamdae Esp Brownie Ala Mode & CC 750ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086049025",
+        "name": "Creamdae Esp Halo-halo & Ube Keso 750ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086047649",
+        "name": "Creamdae Esp Buco Pandan & Mango Float 750ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086049681",
+        "name": "Creamdae 3N1 Choco-Mango-Ube 750ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086049674",
+        "name": "Creamdae 3N1 Choco-Keso-Ube 750ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086043672",
+        "name": "Selecta Hershey's Milk Almonds 450ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086043641",
+        "name": "Selecta Pistachio and Cashew 450ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086049209",
+        "name": "Selecta Strawberries N Creme 450ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086043603",
+        "name": "Selecta Double Dutch 450ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086043627",
+        "name": "Selecta Cookies & Cream 450ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086043634",
+        "name": "Selecta Coffee Crumble 450ml/1",
+        "expiry_date": "02-Apr-25"
+    },
+    {
+        "barcode": "4800086043610",
+        "name": "Selecta Rocky Road 450ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086046598",
+        "name": "Selecta Choco Almond Fudge 450ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086044372",
+        "name": "Creamdae Baso Chocolate 400ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086044389",
+        "name": "Creamdae Baso Keso 400ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086044365",
+        "name": "Creamdae Baso Ube 400ml/1",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8851932439169",
+        "name": "Cornetto Love Rose Strawberry 135ml/20",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086049537",
+        "name": "Cornetto Disc Milky Choco Almond 115ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086045676",
+        "name": "Cornetto Disc White Chocolate 115ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086049148",
+        "name": "Cornetto Hazelnut 110ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086043306",
+        "name": "Cornetto Cookies & Cream 110ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086049483",
+        "name": "Cornetto Caramel Toffeccino 110ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086034670",
+        "name": "Cornetto Vanilla 110ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086134325",
+        "name": "Cornetto Chocolate 110ml/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086049520",
+        "name": "Selecta Cups Double Dutch 100ml/16",
+        "expiry_date": "02-Apr-25"
+    },
+    {
+        "barcode": "4800086049445",
+        "name": "Selecta Cups Rocky Road 100ml/16",
+        "expiry_date": "18-Apr-25"
+    },
+    {
+        "barcode": "4800086049452",
+        "name": "Selecta Cups Cookies and Cream 100ml/16",
+        "expiry_date": "06-Jun-25"
+    },
+    {
+        "barcode": "8851932441438",
+        "name": "Wall's Bites Van & Cara V3 15gx4/24",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "4800086046987",
+        "name": "Creamdae Cups Chocolate 100ml/16",
+        "expiry_date": "12-Apr-25"
+    },
+    {
+        "barcode": "4800086046970",
+        "name": "Creamdae Cups Ube 100ml/16",
+        "expiry_date": "12-May-25"
+    },
+    {
+        "barcode": "4800086049230",
+        "name": "Creamdae Cups Mango 100ml/16",
+        "expiry_date": "18-May-25"
+    },
+    {
+        "barcode": "4800086045768",
+        "name": "Boom Boom Vanilla 60ml/12",
+        "expiry_date": "18-May-25"
+    },
+    {
+        "barcode": "4800086045751",
+        "name": "Boom Boom Choco 60ml/12",
+        "expiry_date": "19-Aug-25"
+    },
+    {
+        "barcode": "4800086047472",
+        "name": "Boom Boom Cookies N Cream 60ml/12",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8851932438513",
+        "name": "Creamdae Stick Milkie 56ml/36",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8851932346016",
+        "name": "Paddle Pop Dragon Pop 47ml/36",
+        "expiry_date": ""
+    },
+    {
+        "barcode": "8851932316347",
+        "name": "Paddle Pop Rocket Strawberry 49g/30",
+        "expiry_date": "11-Apr-25"
+    },
+    {
+        "barcode": "4800086049155",
+        "name": "Creamdae Stick Cookies & Cream 60ml/18",
+        "expiry_date": "08-Aug-25"
+    },
+    {
+        "barcode": "4800086049162",
+        "name": "Creamdae Stick Choco Mallow 60ml/18",
+        "expiry_date": "09-Aug-25"
+    },
+    {
+        "barcode": "4800086049179",
+        "name": "Creamdae Stick Keso 60ml/18",
+        "expiry_date": "10-Aug-25"
+    },
+    {
+        "barcode": "4800086045973",
+        "name": "Watermelon Slice 60ml/20",
+        "expiry_date": "07-Sep-25"
+    },
+    {
+        "barcode": "4800086049797",
+        "name": "Chocky Stick 45ml/28",
+        "expiry_date": "30-Aug-25"
+    }
+]

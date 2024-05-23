@@ -43,14 +43,14 @@
 
     <!-- Sales Aggregates -->
     <div class="row g-6 mb-6">
-        <div class="col-xl-4 col-sm-6 col-12" id="sales">
+        <div class="col-xl-3 col-sm-6 col-12" id="sales">
             <a>
                 <div class="card shadow border-0">
                     <div class="card-body">
                         <div class="row">
                             <div class="col">
-                                <span class="h6 font-semibold text-muted text-sm d-block mb-2">Total Sales Value</span>
-                                <span class="h3 font-bold mb-0">₱{{ total_sales_value }}</span>
+                                <span class="h6 font-semibold text-muted text-sm d-block mb-2">Total Sales Count</span>
+                                <span class="h3 font-bold mb-0">{{ total_sales }}</span>
                             </div>
                             <div class="col-auto">
                                 <div class="icon icon-shape bg-warning text-white text-lg rounded-circle">
@@ -62,14 +62,15 @@
                 </div>
             </a>
         </div>
-        <div class="col-xl-4 col-sm-6 col-12" id="profiles">
+        <div class="col-xl-3 col-sm-6 col-12" id="profiles">
             <a>
                 <div class="card shadow border-0">
                     <div class="card-body">
                         <div class="row">
                             <div class="col">
-                                <span class="h6 font-semibold text-muted text-sm d-block mb-2">Total items sold</span>
+                                <span class="h6 font-semibold text-muted text-sm d-block mb-2">Total inventory count</span>
                                 <span class="h3 font-bold mb-0">{{ total_items }}</span>
+                                (<span class="h6 font-bold mb-0 text-success">{{ total_items_increase }}</span> + <span class="h6 font-bold mb-0 text-danger">-{{ total_items_decrease }}</span>)
                             </div>
                             <div class="col-auto">
                                 <div class="icon icon-shape bg-primary text-white text-lg rounded-circle">
@@ -85,7 +86,7 @@
 
     <!-- Add Sale Order Button and Export to Excel -->
     <div>
-        <a class="btn btn-sm btn-success" href="{% url 'sale-create' %}">Add Sale Order</a>
+        <a class="btn btn-sm btn-success" href="{% url 'sale-create' %}">Add Report</a>
         <a class="float-end btn btn-sm btn-success" href="{% querystring '_export'='xlsx' %}">
             <i class="fa-solid fa-download"></i>
             Export to Excel
@@ -98,10 +99,12 @@
             <tr class="table-success">
                 <th scope="col" class="th-sm">ID <i class="fa-solid fa-sort"></i></th>
                 <th scope="col" class="th-sm">Item <i class="fa-solid fa-sort"></i></th>
-                <th scope="col" class="th-sm">Quantity <i class="fa-solid fa-sort"></i></th>
-                <th scope="col" class="th-sm">Price per item <i class="fa-solid fa-sort"></i></th>
-                <th scope="col" class="th-sm">Total price <i class="fa-solid fa-sort"></i></th>
-                <th scope="col" class="th-sm">Payment Method <i class="fa-solid fa-sort"></i></th>
+                <th scope="col" class="th-sm">B.N Inventory <i class="fa-solid fa-sort"></i></th>
+                <th scope="col" class="th-sm">Delivery <i class="fa-solid fa-sort"></i></th>
+                <th scope="col" class="th-sm">Withdrawal <i class="fa-solid fa-sort"></i></th>
+                <th scope="col" class="th-sm">Sales <i class="fa-solid fa-sort"></i></th>
+                <th scope="col" class="th-sm">Damage <i class="fa-solid fa-sort"></i></th>
+                <th scope="col" class="th-sm">Ending Inventory <i class="fa-solid fa-sort"></i></th>
                 <th scope="col" class="th-sm">Date <i class="fa-solid fa-sort"></i></th>
                 <th scope="col" class="th-sm">Served by <i class="fa-solid fa-sort"></i></th>
                 <th scope="col" class="th-sm">Action</th>
@@ -111,26 +114,18 @@
             {% for sale in sales %}
             <tr>
                 <th scope="row">{{ sale.id }}</th>
-                <td><a href="{% url 'sale-detail' sale.pk %}">{{ sale.item.name }}</a></td>
-                <td>{{ sale.quantity }}</td>
-                <td>{{ sale.price }}</td>
-                <td>{{ sale.total_value }}</td>
-                <td>
-                    {% if sale.payment_method == 'MP' %}
-                    <span class="badge badge-pill bg-soft-success text-success me-2">MPESA</span>
-                    {% elif sale.payment_method == 'CS' %}
-                    <span class="badge badge-pill bg-soft-primary text-primary me-2">CASH</span>
-                    {% elif sale.payment_method == 'VM' %}
-                    <span class="badge badge-pill bg-soft-warning text-warning me-2">VOOMA</span>
-                    {% else %}
-                    <span class="badge badge-pill bg-soft-info text-info me-2">BANK</span>
-                    {% endif %}
-                </td>
-                <td>{{ sale.transaction_date|date:"Y/m/d - H:m:s" }}</td>
+                <td>{{ sale.item.name }}</td>
+                <td>{{ sale.begin_inventory }}</td>
+                <td>{{ sale.delivery }}</td>
+                <td>{{ sale.withdrawal }}</td>
+                <td>{{ sale.sales }}</td>
+                <td>{{ sale.damage }}</td>
+                <td>{{ sale.ending_inventory }}</td>
+                <td>{{ sale.transaction_date|date:"Y/m/d" }}</td>
                 <td>{{ sale.profile.user.username }}</td>
                 <td>
-                    <a class="text-info" href="{% url 'sale-update' sale.slug %}"><i class="fa-solid fa-pen"></i></a>
-                    <a class="text-danger float-end" href="{% url 'sale-delete' sale.slug %}"><i class="fa-solid fa-trash"></i></a>
+                    <a class="text-info" href="{% url 'sale-update' sale.pk %}"><i class="fa-solid fa-pen"></i></a>
+                    <a class="text-danger float-end" href="{% url 'sale-delete' sale.pk %}"><i class="fa-solid fa-trash"></i></a>
                 </td>
             </tr>
             {% endfor %}

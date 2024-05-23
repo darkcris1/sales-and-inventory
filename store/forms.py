@@ -7,4 +7,7 @@ class ProductForm(forms.ModelForm):
         model = Item
         fields = '__all__'
         widgets = {
+            'expiry_date': forms.TextInput(     
+                attrs={'type': 'date'} 
+            )
         }

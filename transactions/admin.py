@@ -3,5 +3,6 @@ from .models import Sale
 
 @admin.register(Sale)
 class SaleAdmin(admin.ModelAdmin):
-    fields = ('item','payment_method', 'quantity', 'price', 'amount_received')
-    list_display = ('item', 'slug', 'transaction_date', 'payment_method', 'quantity', 'price', 'total_value', 'amount_received', 'balance', 'profile')
+    list_display = ('id', 'item', 'begin_inventory', 'damage', 'delivery', 'sales', 'withdrawal', 'ending_inventory', 'remarks', 'transaction_date')
+
+    search_fields = ['item__name']

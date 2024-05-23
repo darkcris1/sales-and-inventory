@@ -36,11 +36,15 @@ class SaleListView(ExportMixin,SingleTableMixin, FilterView):
         sales = self.object_list
 
         # Aggregations
-        total_items = sales.aggregate(total_items=Sum('quantity'))['total_items'] or 0
-        total_sales_value = sales.aggregate(total_sales_value=Sum('total_value'))['total_sales_value'] or 0
         
-        context['total_items'] = total_items
-        context['total_sales_value'] = total_sales_value
+        context['total_items'] = sales.aggregate(Sum('ending_inventory')).get('ending_inventory__sum', 0) or 0
+        context['total_sales'] = sales.aggregate(Sum('sales')).get('sales__sum', 0) or 0
+        context['total_items_decrease'] = sales.aggregate(
+            total__sum=Sum('withdrawal') + Sum('sales') + Sum('damage')
+        ).get('total__sum', 0) or 0
+        context['total_items_increase'] = sales.aggregate(
+            total__sum=Sum('delivery') + Sum('initial_stock')
+        ).get('total__sum', 0) or 0
 
         return context
 
@@ -54,27 +58,14 @@ class SaleCreateView(LoginRequiredMixin, CreateView):
     """View to create a new sale."""
     model = Sale
     template_name = 'transactions/salescreate.html'
-    fields = ['item', 'payment_method', 'quantity', 'amount_received']
+    fields = ['item','transaction_date', 'sales', 'withdrawal', 'delivery', 'damage', 'initial_stock']
 
     def get_success_url(self):
         return reverse('saleslist')
 
+
     def form_valid(self, form):
         """Handles the form submission and validates product availability."""
-        item = form.cleaned_data['item']
-        quantity = form.cleaned_data['quantity']
-
-        price = item.selling_price
-
-        total_price = price * quantity
-
-        form.instance.price = price
-        form.instance.total_value = total_price
-
-        amount_received = form.cleaned_data['amount_received']
-        balance = amount_received - total_price
-        form.instance.balance = balance
-
         form.instance.profile = self.request.user.profile
         return super().form_valid(form)
 
@@ -89,7 +80,7 @@ class SaleUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     """View to update a sale."""
     model = Sale
     template_name = 'transactions/sale_update.html'
-    fields = ['item', 'payment_method', 'quantity', 'price', 'amount_received']
+    fields = ['item', 'initial_stock', 'delivery','sales','withdrawal', 'damage', 'transaction_date']
 
     def test_func(self):
         """Checks if the user has the required permissions to access this view."""
