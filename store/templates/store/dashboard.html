@@ -99,9 +99,7 @@
                                 <thead class="thead-light">
                                     <tr>
                                         <th scope="col">Product Name</th>
-                                        <th scope="col">Quantity</th>
-                                        <th scope="col">Price</th>
-                                        <th scope="col">Category</th>
+                                        <th scope="col">Inventory Count</th>
                                         <th></th>
                                     </tr>
                                 </thead>
@@ -112,13 +110,7 @@
                                             {{item.name}}
                                         </td>
                                         <td>
-                                            {{item.quantity}}
-                                        </td>
-                                        <td>
-                                            {{ item.selling_price }}
-                                        </td>
-                                        <td>
-                                            {{item.category}}
+                                            {{ item.inventory_count }}
                                         </td>
                                     </tr>
                                     {% endfor %}

@@ -43,6 +43,7 @@
               <tr class="table-success">
                 <th scope="col">Barcode <i class="fa-solid fa-sort"></i></th>
                 <th scope="col">Name <i class="fa-solid fa-sort"></i></th>
+                <th scope="col">Expiry Date</i></th>
                 <th scope="col">Inventory</i></th>
                 <th scope="col"> Action</th>
               </tr>
@@ -52,6 +53,7 @@
               <tr>
                 <th scope="row"><a> {{item.barcode}}</a></th>
                 <td>{{item.name}}</td>
+                <td>{{ item.expiry_date }}</td>
                 <td>{{item.inventory_count}}</td>
                 <td>
                   <a class="text-info" href="{% url 'product-update' item.slug %}"><i class="fa-solid fa-pen"></i></a>

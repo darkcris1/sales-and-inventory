@@ -161,7 +161,7 @@ class ProductUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     """
     model = Item
     template_name = 'store/productupdate.html'
-    fields = ['name','category','quantity','selling_price', 'expiring_date',]
+    form_class = ProductForm
     success_url = '/products'
 
     def test_func(self):
