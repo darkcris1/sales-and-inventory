@@ -32,7 +32,7 @@ class Item(models.Model):
         """
         String representation of the item.
         """
-        return f"{self.barcode}: {self.name}"
+        return f"{self.barcode}: Count:{self.inventory_count} :{self.name}"
 
     def get_absolute_url(self):
         """
@@ -42,7 +42,11 @@ class Item(models.Model):
 
     @cached_property
     def inventory_count(self):
-        return self.reports.aggregate(inventory_count=Sum('ending_inventory')).get('inventory_count', 0) or 0
+        last = self.reports.order_by('-transaction_date').first()
+        if last:
+            return last.ending_inventory or 0
+        return 0
+            
 
     class Meta:
         ordering = ["name"]

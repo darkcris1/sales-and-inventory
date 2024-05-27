@@ -30,6 +30,7 @@ class SaleListView(ExportMixin,SingleTableMixin, FilterView):
     paginate_by = 10
     SingleTableView.table_pagination = False
     filterset_class = SaleFilter
+    ordering = '-transaction_date'
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -67,6 +68,15 @@ class SaleCreateView(LoginRequiredMixin, CreateView):
     def form_valid(self, form):
         """Handles the form submission and validates product availability."""
         form.instance.profile = self.request.user.profile
+        negatives = form.instance.sales + form.instance.withdrawal + form.instance.sales
+        if negatives > (form.instance.item.inventory_count + form.instance.delivery + form.instance.initial_stock):
+            form.add_error(None, f'Your reports are invalid the current inventory count of the item is {form.instance.item.inventory_count}')
+            return self.form_invalid(form)  # Return form with errors
+
+        if Sale.objects.filter(item=form.instance.item, transaction_date=form.instance.transaction_date).exists():
+            form.add_error('transaction_date', f'You already filed a report to this item on this date')
+            return self.form_invalid(form)  # Return form with errors
+
         return super().form_valid(form)
 
     def test_func(self):
@@ -75,6 +85,12 @@ class SaleCreateView(LoginRequiredMixin, CreateView):
             return False
         else:
             return True
+
+    def get_context_data(self, **kwargs):
+        """Override to add additional context."""
+        context = super().get_context_data(**kwargs)
+        # Add any additional context here
+        return context
 
 class SaleUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     """View to update a sale."""
