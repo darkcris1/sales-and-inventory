@@ -13,8 +13,5 @@ class SaleFilter(django_filters.FilterSet):
 
     def filter_by_all(self, queryset, name, value):
         return queryset.filter(
-            Q(item__name__icontains=value) |
-            Q(profile__user__username__icontains=value) |
-            Q(payment_method__icontains=value) |
-            Q(transaction_date__icontains=value)
+            Q(item__name__icontains=value)
         )
